@@ -9,12 +9,16 @@ fileSize: "1.5 MB"
 publishDate: 2024-01-15
 updateDate: 2024-03-01
 author: "Igor Pavlov"
-icon: "/icons/7zip.svg"
+icon: "https://cdn.jsdelivr.net/gh/Lihao2017-11-15/astro_download_web@main/public/icons/7zip.png"
+screenshots:
+  - "https://cdn.jsdelivr.net/gh/Lihao2017-11-15/astro_download_web@main/public/screenshots/7zip-1.png"
 downloadCount: 8900
 featured: false
 ---
 
 ## 软件介绍
+
+![7-Zip 主界面](https://cdn.jsdelivr.net/gh/Lihao2017-11-15/astro_download_web@main/public/screenshots/7zip-main.png)
 
 7-Zip 是一款免费开源的文件压缩软件，拥有极高的压缩比。它支持 7z、ZIP、RAR、GZIP、BZIP2、TAR 等多种格式。
 
@@ -36,3 +40,7 @@ featured: false
 1. 下载对应版本的安装包
 2. 运行安装程序
 3. 选择安装路径完成安装
+
+## 界面截图
+
+![压缩文件](https://cdn.jsdelivr.net/gh/Lihao2017-11-15/astro_download_web@main/public/screenshots/7zip-compress.png)
