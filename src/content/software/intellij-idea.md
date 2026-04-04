@@ -1,0 +1,37 @@
+---
+title: "IntelliJ IDEA"
+description: "IntelliJ IDEA是一款强大的Java IDE，也支持其他多种语言。"
+version: "最新版"
+category: 开发
+tags:
+  - 开发工具
+  - mac
+  - 免费
+downloadUrl: "https://www.jetbrains.com/idea/download/"
+fileSize: "未知"
+publishDate: 2020-01-01
+updateDate: 2026-04-05
+author: "JetBrains"
+downloadCount: 0
+featured: false
+---
+
+# IntelliJ IDEA
+
+## 软件简介
+
+IntelliJ IDEA是一款强大的Java IDE，也支持其他多种语言。
+
+## 软件信息
+
+- **分类**: 开发工具
+- **推荐人**: JetBrains
+- **更新日期**: 2020-01-01
+
+## 下载地址
+
+[立即下载](https://www.jetbrains.com/idea/download/)
+
+---
+
+*数据来源: [腾讯柠檬精选](https://lemon.qq.com/lab/)*
