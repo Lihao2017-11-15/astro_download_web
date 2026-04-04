@@ -1,0 +1,63 @@
+---
+import { getCollection } from 'astro:content';
+
+interface Props {
+  activeCategory?: string;
+}
+
+const { activeCategory } = Astro.props;
+
+const software = await getCollection('software');
+const categories = [...new Set(software.map(s => s.data.category))].sort();
+---
+
+<div class="category-filter">
+  <a 
+    href="/" 
+    class={`category-link ${!activeCategory ? 'active' : ''}`}
+  >
+    全部
+  </a>
+  {categories.map(category => (
+    <a 
+      href={`/category/${category}`}
+      class={`category-link ${activeCategory === category ? 'active' : ''}`}
+    >
+      {category}
+    </a>
+  ))}
+</div>
+
+<style>
+  .category-filter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+
+  .category-link {
+    padding: 0.5rem 1rem;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--text-muted);
+    background: var(--surface);
+    border: 1px solid var(--border);
+    transition: all 0.2s;
+    text-decoration: none;
+  }
+
+  .category-link:hover {
+    color: var(--primary);
+    border-color: var(--primary);
+    text-decoration: none;
+  }
+
+  .category-link.active {
+    background: var(--primary);
+    color: white;
+    border-color: var(--primary);
+  }
+</style>

@@ -1,0 +1,144 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { getCollection } from 'astro:content';
+
+const allSoftware = await getCollection('software');
+
+const categories = allSoftware.reduce((acc, software) => {
+  const category = software.data.category;
+  if (!acc[category]) {
+    acc[category] = {
+      name: category,
+      count: 0,
+      software: [],
+    };
+  }
+  acc[category].count++;
+  acc[category].software.push(software);
+  return acc;
+}, {} as Record<string, { name: string; count: number; software: typeof allSoftware }>);
+
+const sortedCategories = Object.values(categories).sort((a, b) => b.count - a.count);
+---
+
+<Layout title="软件分类">
+  <Header />
+  <main>
+    <div class="page-header">
+      <div class="container">
+        <h1>软件分类</h1>
+        <p>按类别浏览所有软件</p>
+      </div>
+    </div>
+
+    <section class="container section">
+      <div class="categories-grid">
+        {sortedCategories.map(category => (
+          <a href={`/category/${category.name}`} class="category-card">
+            <div class="category-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+              </svg>
+            </div>
+            <div class="category-info">
+              <h3>{category.name}</h3>
+              <p>{category.count} 款软件</p>
+            </div>
+            <svg class="arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="9 18 15 12 9 6"/>
+            </svg>
+          </a>
+        ))}
+      </div>
+    </section>
+  </main>
+  <Footer />
+</Layout>
+
+<style>
+  .page-header {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+    color: white;
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+
+  .page-header h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+
+  .page-header p {
+    opacity: 0.9;
+  }
+
+  .section {
+    padding: 3rem 0;
+  }
+
+  .categories-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1rem;
+  }
+
+  .category-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 1rem;
+    transition: all 0.2s;
+    text-decoration: none;
+  }
+
+  .category-card:hover {
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-2px);
+    border-color: var(--primary);
+    text-decoration: none;
+  }
+
+  .category-icon {
+    width: 56px;
+    height: 56px;
+    background: rgba(59, 130, 246, 0.1);
+    color: var(--primary);
+    border-radius: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .category-info {
+    flex: 1;
+  }
+
+  .category-info h3 {
+    font-size: 1.125rem;
+    color: var(--text);
+    margin-bottom: 0.25rem;
+  }
+
+  .category-info p {
+    font-size: 0.875rem;
+    color: var(--text-muted);
+  }
+
+  .arrow {
+    color: var(--text-muted);
+    transition: transform 0.2s;
+  }
+
+  .category-card:hover .arrow {
+    transform: translateX(4px);
+    color: var(--primary);
+  }
+</style>

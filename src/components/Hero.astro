@@ -1,0 +1,46 @@
+---
+import SearchBox from './SearchBox.astro';
+---
+
+<section class="hero">
+  <div class="container">
+    <h1>发现优质软件</h1>
+    <p class="subtitle">精选实用软件，免费下载，安全可靠</p>
+    <SearchBox />
+  </div>
+</section>
+
+<style>
+  .hero {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+    color: white;
+    padding: 4rem 1rem;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+  }
+
+  .subtitle {
+    font-size: 1.125rem;
+    opacity: 0.9;
+    margin-bottom: 2rem;
+  }
+
+  @media (max-width: 640px) {
+    .hero {
+      padding: 3rem 1rem;
+    }
+
+    .hero h1 {
+      font-size: 1.875rem;
+    }
+
+    .subtitle {
+      font-size: 1rem;
+    }
+  }
+</style>

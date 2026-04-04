@@ -1,0 +1,148 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout title="关于我们" description="关于软件下载站">
+  <Header />
+  <main>
+    <div class="page-header">
+      <div class="container">
+        <h1>关于我们</h1>
+        <p>致力于为用户提供优质、安全的软件下载服务</p>
+      </div>
+    </div>
+
+    <section class="container section">
+      <div class="about-content">
+        <div class="about-card">
+          <h2>我们的使命</h2>
+          <p>软件下载站致力于为用户提供优质、安全、免费的软件下载服务。我们精心挑选每一款软件，确保它们来自官方渠道，无病毒、无恶意软件，让用户可以放心下载使用。</p>
+        </div>
+
+        <div class="about-card">
+          <h2>我们的特点</h2>
+          <ul class="feature-list">
+            <li>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="20 6 9 17 4 12"/>
+              </svg>
+              <span><strong>安全可靠</strong> - 所有软件均来自官方渠道，经过安全检测</span>
+            </li>
+            <li>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="20 6 9 17 4 12"/>
+              </svg>
+              <span><strong>免费下载</strong> - 提供完全免费的软件下载服务</span>
+            </li>
+            <li>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="20 6 9 17 4 12"/>
+              </svg>
+              <span><strong>及时更新</strong> - 持续跟踪软件更新，提供最新版本</span>
+            </li>
+            <li>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="20 6 9 17 4 12"/>
+              </svg>
+              <span><strong>详细说明</strong> - 每款软件都有详细的介绍和使用说明</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="about-card">
+          <h2>联系我们</h2>
+          <p>如果您有任何问题、建议或合作意向，欢迎与我们联系。我们会尽快回复您的消息。</p>
+          <div class="contact-info">
+            <p>邮箱：contact@example.com</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <Footer />
+</Layout>
+
+<style>
+  .page-header {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+    color: white;
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+
+  .page-header h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+
+  .page-header p {
+    opacity: 0.9;
+  }
+
+  .section {
+    padding: 3rem 0;
+  }
+
+  .about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .about-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 1rem;
+    padding: 2rem;
+  }
+
+  .about-card h2 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: var(--text);
+  }
+
+  .about-card p {
+    line-height: 1.7;
+    color: var(--text-muted);
+  }
+
+  .feature-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .feature-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+
+  .feature-list svg {
+    color: var(--primary);
+    flex-shrink: 0;
+    margin-top: 0.125rem;
+  }
+
+  .feature-list span {
+    color: var(--text);
+    line-height: 1.6;
+  }
+
+  .contact-info {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border);
+  }
+
+  .contact-info p {
+    color: var(--text);
+  }
+</style>

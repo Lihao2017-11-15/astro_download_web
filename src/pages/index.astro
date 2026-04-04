@@ -1,0 +1,97 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Hero from '../components/Hero.astro';
+import CategoryFilter from '../components/CategoryFilter.astro';
+import SoftwareCard from '../components/SoftwareCard.astro';
+import { getCollection } from 'astro:content';
+
+const allSoftware = await getCollection('software');
+const featuredSoftware = allSoftware.filter(s => s.data.featured);
+const recentSoftware = allSoftware
+  .sort((a, b) => b.data.updateDate.valueOf() - a.data.updateDate.valueOf())
+  .slice(0, 6);
+---
+
+<Layout title="首页">
+  <Header />
+  <main>
+    <Hero />
+    
+    <section class="container section">
+      <h2 class="section-title">精选软件</h2>
+      <CategoryFilter />
+      
+      <div class="software-grid">
+        {recentSoftware.map(software => (
+          <SoftwareCard software={software} />
+        ))}
+      </div>
+    </section>
+
+    <section class="container section stats-section">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <span class="stat-number">{allSoftware.length}+</span>
+          <span class="stat-label">软件收录</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">{allSoftware.reduce((acc, s) => acc + s.data.downloadCount, 0).toLocaleString()}+</span>
+          <span class="stat-label">总下载量</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">100%</span>
+          <span class="stat-label">免费安全</span>
+        </div>
+      </div>
+    </section>
+  </main>
+  <Footer />
+</Layout>
+
+<style>
+  .section {
+    padding: 3rem 0;
+  }
+
+  .section-title {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--text);
+  }
+
+  .software-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .stats-section {
+    background: var(--surface);
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+    padding: 3rem 0;
+  }
+
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .stat-number {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+  }
+
+  .stat-label {
+    color: var(--text-muted);
+    font-size: 0.875rem;
+  }
+</style>
