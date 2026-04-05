@@ -7,11 +7,9 @@ tags:
 - marktext
 - markdown
 downloadUrl: https://github.com/marktext/marktext/releases/download/v0.15.1/marktext-0.15.1.dmg
-fileSize: 未知
 publishDate: 2020-04-02
 updateDate: 2026-04-05
 author: xiaolf
-downloadCount: 0
 featured: false
 ---
 
@@ -26,11 +24,3 @@ featured: false
 - **分类**: 开发
 - **推荐人**: xiaolf
 - **更新日期**: 2020-04-02
-
-## 下载地址
-
-[立即下载](https://github.com/marktext/marktext/releases/download/v0.15.1/marktext-0.15.1.dmg)
-
----
-
-*数据来源: [腾讯柠檬精选](https://lemon.qq.com/lab/)*

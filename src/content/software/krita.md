@@ -7,11 +7,9 @@ tags:
 - Krita
 - 原画创作
 downloadUrl: https://download.kde.org/stable/krita/4.2.3/krita-4.2.3.dmg
-fileSize: 未知
 publishDate: 2019-08-01
 updateDate: 2026-04-05
 author: 海马先生
-downloadCount: 0
 featured: false
 ---
 
@@ -26,11 +24,3 @@ featured: false
 - **分类**: 设计
 - **推荐人**: 海马先生
 - **更新日期**: 2019-08-01
-
-## 下载地址
-
-[立即下载](https://download.kde.org/stable/krita/4.2.3/krita-4.2.3.dmg)
-
----
-
-*数据来源: [腾讯柠檬精选](https://lemon.qq.com/lab/)*

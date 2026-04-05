@@ -7,11 +7,9 @@ tags:
 - MicrosoftEdge
 - 浏览器
 downloadUrl: https://www.microsoft.com/zh-cn/edge
-fileSize: 未知
 publishDate: 2020-03-19
 updateDate: 2026-04-05
 author: 亦可学长
-downloadCount: 0
 featured: false
 ---
 
@@ -26,11 +24,3 @@ featured: false
 - **分类**: 网络
 - **推荐人**: 亦可学长
 - **更新日期**: 2020-03-19
-
-## 下载地址
-
-[立即下载](https://www.microsoft.com/zh-cn/edge)
-
----
-
-*数据来源: [腾讯柠檬精选](https://lemon.qq.com/lab/)*

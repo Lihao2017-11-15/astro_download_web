@@ -7,11 +7,9 @@ tags:
 - HandBrake
 - 视频格式转换
 downloadUrl: https://handbrake.fr/rotation.php?file=HandBrake-1.2.2.dmg
-fileSize: 未知
 publishDate: 2019-07-08
 updateDate: 2026-04-05
 author: 思远
-downloadCount: 0
 featured: false
 ---
 
@@ -26,11 +24,3 @@ featured: false
 - **分类**: 媒体
 - **推荐人**: 思远
 - **更新日期**: 2019-07-08
-
-## 下载地址
-
-[立即下载](https://handbrake.fr/rotation.php?file=HandBrake-1.2.2.dmg)
-
----
-
-*数据来源: [腾讯柠檬精选](https://lemon.qq.com/lab/)*

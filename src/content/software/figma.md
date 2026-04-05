@@ -28,10 +28,3 @@ featured: false
 - **推荐人**: 哥哥不灵
 - **更新日期**: 2021-03-29
 
-## 下载地址
-
-[立即下载](https://store.lizhi.io/site/products/id/375?cid=enqvaglc)
-
----
-
-*数据来源: [腾讯柠檬精选](https://lemon.qq.com/lab/)*

@@ -7,11 +7,9 @@ tags:
 - yuanqiFM
 - 白噪声
 downloadUrl: https://apps.apple.com/cn/app/元气-fm/id1479696191?mt=12
-fileSize: 未知
 publishDate: 2020-02-26
 updateDate: 2026-04-05
 author: VinayPeng
-downloadCount: 0
 featured: false
 ---
 
@@ -26,11 +24,3 @@ featured: false
 - **分类**: 媒体
 - **推荐人**: VinayPeng
 - **更新日期**: 2020-02-26
-
-## 下载地址
-
-[立即下载](https://apps.apple.com/cn/app/元气-fm/id1479696191?mt=12)
-
----
-
-*数据来源: [腾讯柠檬精选](https://lemon.qq.com/lab/)*

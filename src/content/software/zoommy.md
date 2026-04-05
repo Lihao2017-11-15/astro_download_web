@@ -7,11 +7,9 @@ tags:
 - 素材库
 - 图片库
 downloadUrl: https://store.lizhi.io/site/products/id/64?cid=enqvaglc
-fileSize: 未知
 publishDate: 2021-04-01
 updateDate: 2026-04-05
 author: 哥哥不灵
-downloadCount: 0
 featured: false
 ---
 
@@ -26,11 +24,3 @@ Zoommy 是一款集合了超过 50 个免费无版权图库的图片素材库。
 - **分类**: 其他
 - **推荐人**: 哥哥不灵
 - **更新日期**: 2021-04-01
-
-## 下载地址
-
-[立即下载](https://store.lizhi.io/site/products/id/64?cid=enqvaglc)
-
----
-
-*数据来源: [腾讯柠檬精选](https://lemon.qq.com/lab/)*

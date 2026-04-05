@@ -7,11 +7,9 @@ tags:
 - Motrix
 - 不限速下载
 downloadUrl: https://dlied6.qq.com/invc/xfspeed/qqpcmgr/module_update/Motrix-1.5.15-mac.zip
-fileSize: 未知
 publishDate: 2019-08-01
 updateDate: 2026-04-05
 author: 尹帅
-downloadCount: 0
 featured: false
 ---
 
@@ -26,11 +24,3 @@ featured: false
 - **分类**: 下载
 - **推荐人**: 尹帅
 - **更新日期**: 2019-08-01
-
-## 下载地址
-
-[立即下载](https://dlied6.qq.com/invc/xfspeed/qqpcmgr/module_update/Motrix-1.5.15-mac.zip)
-
----
-
-*数据来源: [腾讯柠檬精选](https://lemon.qq.com/lab/)*

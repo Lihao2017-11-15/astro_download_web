@@ -7,11 +7,9 @@ tags:
 - 文件传输工具
 - 局域网文件
 downloadUrl: https://dlied6.qq.com/invc/xfspeed/qqpcmgr/module_update/DaFileShare11.zip
-fileSize: 未知
 publishDate: 2020-08-27
 updateDate: 2026-04-05
 author: 亦可学长
-downloadCount: 0
 featured: false
 ---
 
@@ -26,11 +24,3 @@ featured: false
 - **分类**: 其他
 - **推荐人**: 亦可学长
 - **更新日期**: 2020-08-27
-
-## 下载地址
-
-[立即下载](https://dlied6.qq.com/invc/xfspeed/qqpcmgr/module_update/DaFileShare11.zip)
-
----
-
-*数据来源: [腾讯柠檬精选](https://lemon.qq.com/lab/)*

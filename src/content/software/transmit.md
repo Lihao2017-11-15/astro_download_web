@@ -28,10 +28,3 @@ Transmit是一款强大的FTP/SFTP客户端。
 - **推荐人**: Panic
 - **更新日期**: 2020-01-01
 
-## 下载地址
-
-[立即下载](https://panic.com/transmit/)
-
----
-
-*数据来源: [腾讯柠檬精选](https://lemon.qq.com/lab/)*

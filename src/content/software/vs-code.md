@@ -28,10 +28,3 @@ featured: false
 - **推荐人**: JayWang
 - **更新日期**: 2020-07-23
 
-## 下载地址
-
-[立即下载](https://code.visualstudio.com/docs/?dv=osx)
-
----
-
-*数据来源: [腾讯柠檬精选](https://lemon.qq.com/lab/)*

@@ -7,11 +7,9 @@ tags:
 - startgame
 - START
 downloadUrl: https://imgcdn.start.qq.com/cdn/mac.client/installer/1002/START-Installer-0.294.1-105-1002.dmg
-fileSize: 未知
 publishDate: 2021-01-29
 updateDate: 2026-04-05
 author: START云游戏
-downloadCount: 0
 featured: false
 ---
 
@@ -26,11 +24,3 @@ START是腾讯面向未来的跨终端游戏平台，通过云游戏让用户在
 - **分类**: 其他
 - **推荐人**: START云游戏
 - **更新日期**: 2021-01-29
-
-## 下载地址
-
-[立即下载](https://imgcdn.start.qq.com/cdn/mac.client/installer/1002/START-Installer-0.294.1-105-1002.dmg)
-
----
-
-*数据来源: [腾讯柠檬精选](https://lemon.qq.com/lab/)*

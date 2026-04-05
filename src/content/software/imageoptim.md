@@ -7,11 +7,9 @@ tags:
 - ImageOptim
 - 无损图片压缩
 downloadUrl: https://imageoptim.com/ImageOptim.tbz2
-fileSize: 未知
 publishDate: 2019-11-07
 updateDate: 2026-04-05
 author: Mocaris
-downloadCount: 0
 featured: false
 ---
 
@@ -26,11 +24,3 @@ featured: false
 - **分类**: 设计
 - **推荐人**: Mocaris
 - **更新日期**: 2019-11-07
-
-## 下载地址
-
-[立即下载](https://imageoptim.com/ImageOptim.tbz2)
-
----
-
-*数据来源: [腾讯柠檬精选](https://lemon.qq.com/lab/)*

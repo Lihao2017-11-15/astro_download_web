@@ -28,10 +28,3 @@ QuickTime Player是Apple的媒体播放器，也支持录屏。
 - **推荐人**: Apple
 - **更新日期**: 2020-01-01
 
-## 下载地址
-
-[立即下载](https://support.apple.com/zh-cn/HT201066)
-
----
-
-*数据来源: [腾讯柠檬精选](https://lemon.qq.com/lab/)*

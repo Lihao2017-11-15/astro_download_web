@@ -7,11 +7,9 @@ tags:
 - 文件解压缩工具
 - 压缩工具
 downloadUrl: https://www.nchsoftware.com/zip/cn/zipmaci.zip
-fileSize: 未知
 publishDate: 2020-09-24
 updateDate: 2026-04-05
 author: Vincent
-downloadCount: 0
 featured: false
 ---
 
@@ -26,11 +24,3 @@ featured: false
 - **分类**: 其他
 - **推荐人**: Vincent
 - **更新日期**: 2020-09-24
-
-## 下载地址
-
-[立即下载](https://www.nchsoftware.com/zip/cn/zipmaci.zip)
-
----
-
-*数据来源: [腾讯柠檬精选](https://lemon.qq.com/lab/)*

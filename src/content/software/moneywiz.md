@@ -28,10 +28,3 @@ MoneyWiz是一款专业的记账、理财工具，支持所有常用的系统平
 - **推荐人**: 哥哥不灵
 - **更新日期**: 2021-03-18
 
-## 下载地址
-
-[立即下载](https://store.lizhi.io/site/products/id/43?cid=enqvaglc)
-
----
-
-*数据来源: [腾讯柠檬精选](https://lemon.qq.com/lab/)*

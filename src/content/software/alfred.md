@@ -28,10 +28,3 @@ featured: false
 - **推荐人**: 风和
 - **更新日期**: 2020-11-12
 
-## 下载地址
-
-[立即下载](https://www.alfredapp.com/)
-
----
-
-*数据来源: [腾讯柠檬精选](https://lemon.qq.com/lab/)*

@@ -7,11 +7,9 @@ tags:
 - 电池显示软件
 - Mac电脑电池
 downloadUrl: https://batterybuddy.app/releases/Battery Buddy.zip
-fileSize: 未知
 publishDate: 2021-04-01
 updateDate: 2026-04-05
 author: 木尔希尔
-downloadCount: 0
 featured: false
 ---
 
@@ -26,11 +24,3 @@ Battery Buddy Mac版是一款非常可爱的Mac电脑电池监测和显示软件
 - **分类**: 其他
 - **推荐人**: 木尔希尔
 - **更新日期**: 2021-04-01
-
-## 下载地址
-
-[立即下载](https://batterybuddy.app/releases/Battery Buddy.zip)
-
----
-
-*数据来源: [腾讯柠檬精选](https://lemon.qq.com/lab/)*

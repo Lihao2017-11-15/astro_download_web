@@ -8,11 +8,9 @@ tags:
 - 无损转码
 - CD抓取
 downloadUrl: https://get.downloads32.net/21/203317/352199/xld-gui-20100401.tar.bz2
-fileSize: 未知
 publishDate: 2020-09-17
 updateDate: 2026-04-05
 author: pswell
-downloadCount: 0
 featured: false
 ---
 
@@ -27,11 +25,3 @@ featured: false
 - **分类**: 其他
 - **推荐人**: pswell
 - **更新日期**: 2020-09-17
-
-## 下载地址
-
-[立即下载](https://get.downloads32.net/21/203317/352199/xld-gui-20100401.tar.bz2)
-
----
-
-*数据来源: [腾讯柠檬精选](https://lemon.qq.com/lab/)*

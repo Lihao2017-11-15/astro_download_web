@@ -28,10 +28,3 @@ Omni Player全能影音播放器是mac上一款几乎适用于所有格式的多
 - **推荐人**: 小七
 - **更新日期**: 2020-12-17
 
-## 下载地址
-
-[立即下载](https://apps.apple.com/cn/app/omni-player-全能影音播放器/id1470926410?mt=12)
-
----
-
-*数据来源: [腾讯柠檬精选](https://lemon.qq.com/lab/)*

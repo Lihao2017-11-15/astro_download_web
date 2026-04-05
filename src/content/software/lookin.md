@@ -7,11 +7,9 @@ tags:
 - Lookin
 - 实用iOS-UI调试
 downloadUrl: https://lookin.work/get/
-fileSize: 未知
 publishDate: 2019-12-26
 updateDate: 2026-04-05
 author: 李凯
-downloadCount: 0
 featured: false
 ---
 
@@ -26,11 +24,3 @@ featured: false
 - **分类**: 开发
 - **推荐人**: 李凯
 - **更新日期**: 2019-12-26
-
-## 下载地址
-
-[立即下载](https://lookin.work/get/)
-
----
-
-*数据来源: [腾讯柠檬精选](https://lemon.qq.com/lab/)*

@@ -8,11 +8,9 @@ tags:
 - github
 - 开发工具
 downloadUrl: https://atom.io/download/mac
-fileSize: 未知
 publishDate: 2020-07-23
 updateDate: 2026-04-05
 author: JayWang
-downloadCount: 0
 featured: false
 ---
 
@@ -27,11 +25,3 @@ featured: false
 - **分类**: 其他
 - **推荐人**: JayWang
 - **更新日期**: 2020-07-23
-
-## 下载地址
-
-[立即下载](https://atom.io/download/mac)
-
----
-
-*数据来源: [腾讯柠檬精选](https://lemon.qq.com/lab/)*

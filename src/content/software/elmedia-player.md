@@ -7,11 +7,9 @@ tags:
 - Elmedia_player
 - 在线媒体播放器
 downloadUrl: https://mac.eltima.com/cn/elmediaplayer.html?utm_source=Google&utm_campaign=cn-media-player
-fileSize: 未知
 publishDate: 2020-03-12
 updateDate: 2026-04-05
 author: zwb124
-downloadCount: 0
 featured: false
 ---
 
@@ -26,11 +24,3 @@ featured: false
 - **分类**: 媒体
 - **推荐人**: zwb124
 - **更新日期**: 2020-03-12
-
-## 下载地址
-
-[立即下载](https://mac.eltima.com/cn/elmediaplayer.html?utm_source=Google&utm_campaign=cn-media-player)
-
----
-
-*数据来源: [腾讯柠檬精选](https://lemon.qq.com/lab/)*

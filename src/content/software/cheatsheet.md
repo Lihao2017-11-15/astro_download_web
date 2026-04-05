@@ -7,11 +7,9 @@ tags:
 - CheatSheet
 - 快捷键
 downloadUrl: https://dlied6.qq.com/invc/xfspeed/qqpcmgr/module_update/cheatsheet15.zip
-fileSize: 未知
 publishDate: 2020-04-09
 updateDate: 2026-04-05
 author: Neo_牛
-downloadCount: 0
 featured: false
 ---
 
@@ -26,11 +24,3 @@ featured: false
 - **分类**: 工具
 - **推荐人**: Neo_牛
 - **更新日期**: 2020-04-09
-
-## 下载地址
-
-[立即下载](https://dlied6.qq.com/invc/xfspeed/qqpcmgr/module_update/cheatsheet15.zip)
-
----
-
-*数据来源: [腾讯柠檬精选](https://lemon.qq.com/lab/)*

@@ -7,11 +7,9 @@ tags:
 - IINA
 - 多格式播放器
 downloadUrl: https://dl.iina.io/IINA.v1.0.6.dmg
-fileSize: 未知
 publishDate: 2019-07-08
 updateDate: 2026-04-05
 author: Annabel
-downloadCount: 0
 featured: false
 ---
 
@@ -26,11 +24,3 @@ featured: false
 - **分类**: 媒体
 - **推荐人**: Annabel
 - **更新日期**: 2019-07-08
-
-## 下载地址
-
-[立即下载](https://dl.iina.io/IINA.v1.0.6.dmg)
-
----
-
-*数据来源: [腾讯柠檬精选](https://lemon.qq.com/lab/)*

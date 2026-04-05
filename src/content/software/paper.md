@@ -7,11 +7,9 @@ tags:
 - pap_er
 - 高颜值壁纸
 downloadUrl: https://dlied6.qq.com/invc/xfspeed/qqpcmgr/module_update/paper351.dmg
-fileSize: 未知
 publishDate: 2019-10-31
 updateDate: 2026-04-05
 author: 海森
-downloadCount: 0
 featured: false
 ---
 
@@ -26,11 +24,3 @@ featured: false
 - **分类**: 壁纸
 - **推荐人**: 海森
 - **更新日期**: 2019-10-31
-
-## 下载地址
-
-[立即下载](https://dlied6.qq.com/invc/xfspeed/qqpcmgr/module_update/paper351.dmg)
-
----
-
-*数据来源: [腾讯柠檬精选](https://lemon.qq.com/lab/)*

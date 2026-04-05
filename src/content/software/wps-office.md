@@ -7,11 +7,9 @@ tags:
 - WpsOffice
 - Office
 downloadUrl: https://package.mac.wpscdn.cn/mac_wps_pkg/2.1.2/WPS_Office_2.1.2(3417).dmg
-fileSize: 未知
 publishDate: 2020-04-09
 updateDate: 2026-04-05
 author: 椰子
-downloadCount: 0
 featured: false
 ---
 
@@ -26,11 +24,3 @@ featured: false
 - **分类**: 办公
 - **推荐人**: 椰子
 - **更新日期**: 2020-04-09
-
-## 下载地址
-
-[立即下载](https://package.mac.wpscdn.cn/mac_wps_pkg/2.1.2/WPS_Office_2.1.2(3417).dmg)
-
----
-
-*数据来源: [腾讯柠檬精选](https://lemon.qq.com/lab/)*

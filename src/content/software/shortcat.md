@@ -7,11 +7,9 @@ tags:
 - 键盘辅助
 - 效率
 downloadUrl: https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-4.3.6.dmg
-fileSize: 未知
 publishDate: 2021-07-08
 updateDate: 2026-04-05
 author: zonaszhou
-downloadCount: 0
 featured: false
 ---
 
@@ -26,11 +24,3 @@ Shortcat是一款键盘辅助工具，可以通过快捷键到达屏幕上的任
 - **分类**: 其他
 - **推荐人**: zonaszhou
 - **更新日期**: 2021-07-08
-
-## 下载地址
-
-[立即下载](https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-4.3.6.dmg)
-
----
-
-*数据来源: [腾讯柠檬精选](https://lemon.qq.com/lab/)*

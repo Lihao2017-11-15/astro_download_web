@@ -7,11 +7,9 @@ tags:
 - flexible_timers
 - 自定义计时
 downloadUrl: https://apps.apple.com/cn/app/flexible-timers/id1296620733?mt=12
-fileSize: 未知
 publishDate: 2019-10-31
 updateDate: 2026-04-05
 author: 兽兽julionc
-downloadCount: 0
 featured: false
 ---
 
@@ -26,11 +24,3 @@ featured: false
 - **分类**: 工具
 - **推荐人**: 兽兽julionc
 - **更新日期**: 2019-10-31
-
-## 下载地址
-
-[立即下载](https://apps.apple.com/cn/app/flexible-timers/id1296620733?mt=12)
-
----
-
-*数据来源: [腾讯柠檬精选](https://lemon.qq.com/lab/)*

@@ -7,11 +7,9 @@ tags:
 - kankan
 - 图像预览
 downloadUrl: https://dlied6.qq.com/invc/xfspeed/qqpcmgr/module_update/kankan024.dmg
-fileSize: 未知
 publishDate: 2020-05-14
 updateDate: 2026-04-05
 author: 憨憨哥哥
-downloadCount: 0
 featured: false
 ---
 
@@ -26,11 +24,3 @@ featured: false
 - **分类**: 其他
 - **推荐人**: 憨憨哥哥
 - **更新日期**: 2020-05-14
-
-## 下载地址
-
-[立即下载](https://dlied6.qq.com/invc/xfspeed/qqpcmgr/module_update/kankan024.dmg)
-
----
-
-*数据来源: [腾讯柠檬精选](https://lemon.qq.com/lab/)*

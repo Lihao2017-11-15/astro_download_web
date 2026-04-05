@@ -8,11 +8,9 @@ tags:
 - 点名
 - 状态栏
 downloadUrl: https://dlied6.qq.com/invc/xfspeed/qqpcmgr/module_update/LuckyYou_1.1.1.com.dmg
-fileSize: 未知
 publishDate: 2020-07-16
 updateDate: 2026-04-05
 author: jwenjian
-downloadCount: 0
 featured: false
 ---
 
@@ -27,11 +25,3 @@ featured: false
 - **分类**: 其他
 - **推荐人**: jwenjian
 - **更新日期**: 2020-07-16
-
-## 下载地址
-
-[立即下载](https://dlied6.qq.com/invc/xfspeed/qqpcmgr/module_update/LuckyYou_1.1.1.com.dmg)
-
----
-
-*数据来源: [腾讯柠檬精选](https://lemon.qq.com/lab/)*

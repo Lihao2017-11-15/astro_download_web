@@ -28,10 +28,3 @@ RoboForm是一款老牌密码管理器。
 - **推荐人**: RoboForm
 - **更新日期**: 2020-01-01
 
-## 下载地址
-
-[立即下载](https://www.roboform.com/download)
-
----
-
-*数据来源: [腾讯柠檬精选](https://lemon.qq.com/lab/)*

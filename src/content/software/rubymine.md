@@ -28,10 +28,3 @@ RubyMine是一款专业的Ruby和Rails IDE。
 - **推荐人**: JetBrains
 - **更新日期**: 2020-01-01
 
-## 下载地址
-
-[立即下载](https://www.jetbrains.com/ruby/download/)
-
----
-
-*数据来源: [腾讯柠檬精选](https://lemon.qq.com/lab/)*

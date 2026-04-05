@@ -28,10 +28,3 @@ ScreenFlow是一款强大的录屏和视频编辑软件。
 - **推荐人**: Telestream
 - **更新日期**: 2020-01-01
 
-## 下载地址
-
-[立即下载](https://www.telestream.net/screenflow/overview.htm)
-
----
-
-*数据来源: [腾讯柠檬精选](https://lemon.qq.com/lab/)*

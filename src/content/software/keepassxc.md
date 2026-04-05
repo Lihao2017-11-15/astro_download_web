@@ -28,10 +28,3 @@ KeePassXC是一款开源的密码管理器。
 - **推荐人**: KeePassXC
 - **更新日期**: 2020-01-01
 
-## 下载地址
-
-[立即下载](https://keepassxc.org/download/)
-
----
-
-*数据来源: [腾讯柠檬精选](https://lemon.qq.com/lab/)*

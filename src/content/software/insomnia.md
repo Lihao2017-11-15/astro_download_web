@@ -28,10 +28,3 @@ Insomnia是一款现代化的API客户端。
 - **推荐人**: Insomnia
 - **更新日期**: 2020-01-01
 
-## 下载地址
-
-[立即下载](https://insomnia.rest/download)
-
----
-
-*数据来源: [腾讯柠檬精选](https://lemon.qq.com/lab/)*

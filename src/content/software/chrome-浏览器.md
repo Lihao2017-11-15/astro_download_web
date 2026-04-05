@@ -8,11 +8,9 @@ tags:
 - GoogleChrome
 - 高速浏览器
 downloadUrl: https://www.google.cn/intl/zh-CN/chrome/
-fileSize: 未知
 publishDate: 2019-11-07
 updateDate: 2026-04-05
 author: 曹轩鸣
-downloadCount: 0
 featured: false
 ---
 
@@ -27,11 +25,3 @@ featured: false
 - **分类**: 网络
 - **推荐人**: 曹轩鸣
 - **更新日期**: 2019-11-07
-
-## 下载地址
-
-[立即下载](https://www.google.cn/intl/zh-CN/chrome/)
-
----
-
-*数据来源: [腾讯柠檬精选](https://lemon.qq.com/lab/)*

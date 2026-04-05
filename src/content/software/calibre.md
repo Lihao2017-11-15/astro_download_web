@@ -7,11 +7,9 @@ tags:
 - calibre
 - 电子书神器
 downloadUrl: https://calibre-ebook.com/dist/osx
-fileSize: 未知
 publishDate: 2019-10-31
 updateDate: 2026-04-05
 author: lagXkjy
-downloadCount: 0
 featured: false
 ---
 
@@ -26,11 +24,3 @@ featured: false
 - **分类**: 阅读
 - **推荐人**: lagXkjy
 - **更新日期**: 2019-10-31
-
-## 下载地址
-
-[立即下载](https://calibre-ebook.com/dist/osx)
-
----
-
-*数据来源: [腾讯柠檬精选](https://lemon.qq.com/lab/)*

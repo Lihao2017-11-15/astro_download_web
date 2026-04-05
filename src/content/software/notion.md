@@ -7,11 +7,9 @@ tags:
 - Notion
 - 多功能笔记
 downloadUrl: https://desktop-release.notion-static.com/Notion-1.0.7.dmg
-fileSize: 未知
 publishDate: 2019-08-01
 updateDate: 2026-04-05
 author: 共文告
-downloadCount: 0
 featured: false
 ---
 
@@ -26,11 +24,3 @@ featured: false
 - **分类**: 办公
 - **推荐人**: 共文告
 - **更新日期**: 2019-08-01
-
-## 下载地址
-
-[立即下载](https://desktop-release.notion-static.com/Notion-1.0.7.dmg)
-
----
-
-*数据来源: [腾讯柠檬精选](https://lemon.qq.com/lab/)*

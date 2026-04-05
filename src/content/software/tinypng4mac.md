@@ -7,11 +7,9 @@ tags:
 - TinyPNG4Mac
 - 无损图片压缩
 downloadUrl: https://dlied6.qq.com/invc/xfspeed/qqpcmgr/module_update/TinyPNG4Mac_1_0_4.zip
-fileSize: 未知
 publishDate: 2019-08-01
 updateDate: 2026-04-05
 author: Maruko小丸子
-downloadCount: 0
 featured: false
 ---
 
@@ -26,11 +24,3 @@ featured: false
 - **分类**: 设计
 - **推荐人**: Maruko小丸子
 - **更新日期**: 2019-08-01
-
-## 下载地址
-
-[立即下载](https://dlied6.qq.com/invc/xfspeed/qqpcmgr/module_update/TinyPNG4Mac_1_0_4.zip)
-
----
-
-*数据来源: [腾讯柠檬精选](https://lemon.qq.com/lab/)*

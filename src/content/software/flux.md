@@ -7,11 +7,9 @@ tags:
 - Flux
 - 屏幕色温调节
 downloadUrl: https://justgetflux.com/dlmac.html
-fileSize: 未知
 publishDate: 2021-05-06
 updateDate: 2026-04-05
 author: Allen哥哥
-downloadCount: 0
 featured: false
 ---
 
@@ -26,11 +24,3 @@ f.lux可以帮助用户调节显示器屏幕的色温，也可以根据时间变
 - **分类**: 其他
 - **推荐人**: Allen哥哥
 - **更新日期**: 2021-05-06
-
-## 下载地址
-
-[立即下载](https://justgetflux.com/dlmac.html)
-
----
-
-*数据来源: [腾讯柠檬精选](https://lemon.qq.com/lab/)*

@@ -7,11 +7,9 @@ tags:
 - Itsycal
 - 状态栏极简日历
 downloadUrl: https://itsycal.s3.amazonaws.com/Itsycal.zip
-fileSize: 未知
 publishDate: 2019-09-16
 updateDate: 2026-04-05
 author: BenjaminDbb
-downloadCount: 0
 featured: false
 ---
 
@@ -26,11 +24,3 @@ featured: false
 - **分类**: 工具
 - **推荐人**: BenjaminDbb
 - **更新日期**: 2019-09-16
-
-## 下载地址
-
-[立即下载](https://itsycal.s3.amazonaws.com/Itsycal.zip)
-
----
-
-*数据来源: [腾讯柠檬精选](https://lemon.qq.com/lab/)*

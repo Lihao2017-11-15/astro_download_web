@@ -28,10 +28,3 @@ Little Snitch是一款网络监控工具，控制应用的网络连接。
 - **推荐人**: Objective Development
 - **更新日期**: 2020-01-01
 
-## 下载地址
-
-[立即下载](https://www.obdev.at/products/littlesnitch/index.html)
-
----
-
-*数据来源: [腾讯柠檬精选](https://lemon.qq.com/lab/)*

@@ -8,11 +8,9 @@ tags:
 - 夺旗
 - 手柄
 downloadUrl: https://apps.apple.com/cn/app/bombsquad/id416482767?mt=12
-fileSize: 未知
 publishDate: 2020-09-10
 updateDate: 2026-04-05
 author: 我不是柠檬精
-downloadCount: 0
 featured: false
 ---
 
@@ -27,11 +25,3 @@ featured: false
 - **分类**: 其他
 - **推荐人**: 我不是柠檬精
 - **更新日期**: 2020-09-10
-
-## 下载地址
-
-[立即下载](https://apps.apple.com/cn/app/bombsquad/id416482767?mt=12)
-
----
-
-*数据来源: [腾讯柠檬精选](https://lemon.qq.com/lab/)*

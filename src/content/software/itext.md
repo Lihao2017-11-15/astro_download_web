@@ -7,11 +7,9 @@ tags:
 - iText
 - 识别文字
 downloadUrl: https://apps.apple.com/cn/app/itext-ocr-识别-翻译图片中的文字/id1314980676?mt=12
-fileSize: 未知
 publishDate: 2019-07-08
 updateDate: 2026-04-05
 author: Maruko小丸子
-downloadCount: 0
 featured: false
 ---
 
@@ -26,11 +24,3 @@ featured: false
 - **分类**: 图片
 - **推荐人**: Maruko小丸子
 - **更新日期**: 2019-07-08
-
-## 下载地址
-
-[立即下载](https://apps.apple.com/cn/app/itext-ocr-识别-翻译图片中的文字/id1314980676?mt=12)
-
----
-
-*数据来源: [腾讯柠檬精选](https://lemon.qq.com/lab/)*

@@ -7,11 +7,9 @@ tags:
 - PPya
 - 图片压缩
 downloadUrl: https://store.lizhi.io/site/products/id/95?cid=enqvaglc
-fileSize: 未知
 publishDate: 2021-01-14
 updateDate: 2026-04-05
 author: 哥哥不灵
-downloadCount: 0
 featured: false
 ---
 
@@ -26,11 +24,3 @@ PP鸭整合了业内最优秀的数种开源的图片压缩算法，会自动根
 - **分类**: 其他
 - **推荐人**: 哥哥不灵
 - **更新日期**: 2021-01-14
-
-## 下载地址
-
-[立即下载](https://store.lizhi.io/site/products/id/95?cid=enqvaglc)
-
----
-
-*数据来源: [腾讯柠檬精选](https://lemon.qq.com/lab/)*

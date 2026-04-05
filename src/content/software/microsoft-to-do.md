@@ -7,11 +7,9 @@ tags:
 - Microsoft_To_Do
 - 多平台极简待办
 downloadUrl: https://apps.apple.com/cn/app/microsoft-to-do/id1274495053?mt=12
-fileSize: 未知
 publishDate: 2019-10-16
 updateDate: 2026-04-05
 author: Liuence
-downloadCount: 0
 featured: false
 ---
 
@@ -26,11 +24,3 @@ featured: false
 - **分类**: 办公
 - **推荐人**: Liuence
 - **更新日期**: 2019-10-16
-
-## 下载地址
-
-[立即下载](https://apps.apple.com/cn/app/microsoft-to-do/id1274495053?mt=12)
-
----
-
-*数据来源: [腾讯柠檬精选](https://lemon.qq.com/lab/)*

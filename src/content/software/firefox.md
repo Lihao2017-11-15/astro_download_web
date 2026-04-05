@@ -7,11 +7,9 @@ tags:
 - Firefox
 - 浏览器
 downloadUrl: https://download-ssl.firefox.com.cn/releases/firefox/75.0/zh-CN/Firefox-latest.dmg
-fileSize: 未知
 publishDate: 2020-04-23
 updateDate: 2026-04-05
 author: 烤鸡架解说
-downloadCount: 0
 featured: false
 ---
 
@@ -26,11 +24,3 @@ Firefox是一款引擎反应更快,内存占用更少的浏览器，支持数以
 - **分类**: 网络
 - **推荐人**: 烤鸡架解说
 - **更新日期**: 2020-04-23
-
-## 下载地址
-
-[立即下载](https://download-ssl.firefox.com.cn/releases/firefox/75.0/zh-CN/Firefox-latest.dmg)
-
----
-
-*数据来源: [腾讯柠檬精选](https://lemon.qq.com/lab/)*

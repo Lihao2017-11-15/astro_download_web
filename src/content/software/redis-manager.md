@@ -7,11 +7,9 @@ tags:
 - Another Redis DeskTop Manager
 - 可视化工具
 downloadUrl: https://dlied6.qq.com/invc/xfspeed/qqpcmgr/module_update/redisdesktop09339.dmg
-fileSize: 未知
 publishDate: 2020-06-03
 updateDate: 2026-04-05
 author: Chase
-downloadCount: 0
 featured: false
 ---
 
@@ -26,11 +24,3 @@ featured: false
 - **分类**: 其他
 - **推荐人**: Chase
 - **更新日期**: 2020-06-03
-
-## 下载地址
-
-[立即下载](https://dlied6.qq.com/invc/xfspeed/qqpcmgr/module_update/redisdesktop09339.dmg)
-
----
-
-*数据来源: [腾讯柠檬精选](https://lemon.qq.com/lab/)*
