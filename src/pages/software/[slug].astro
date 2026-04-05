@@ -17,7 +17,11 @@ const { Content } = await entry.render();
 const { title, description, version, category, tags, downloadUrl, fileSize, publishDate, updateDate, author, downloadCount, icon, screenshots } = entry.data;
 ---
 
-<Layout title={title} description={description}>
+<Layout 
+  title={`${title} for Mac - 免费下载`} 
+  description={`${title} for Mac是一款${description}，版本v${version}，属于${category}类别，免费安全下载`}
+  keywords={`${title},${title} for Mac,Mac ${title},${category}软件,免费Mac软件,Mac下载`}
+>
   <Header />
   <main>
     <div class="container">
@@ -26,18 +30,18 @@ const { title, description, version, category, tags, downloadUrl, fileSize, publ
         <span>/</span>
         <a href={`/category/${category}`}>{category}</a>
         <span>/</span>
-        <span>{title}</span>
+        <span>{title} for Mac</span>
       </div>
 
       <article class="software-detail">
         <header class="detail-header">
           {icon ? (
-            <img src={icon} alt={title} class="software-icon" />
+            <img src={icon} alt={`${title} for Mac`} class="software-icon" />
           ) : (
             <div class="icon-placeholder large">{title.charAt(0)}</div>
           )}
           <div class="header-content">
-            <h1>{title}</h1>
+            <h1>{title} for Mac</h1>
             <p class="description">{description}</p>
             <!-- 
             <div class="meta-row">
@@ -73,6 +77,15 @@ const { title, description, version, category, tags, downloadUrl, fileSize, publ
           <div class="main-content">
             <div class="content-card">
               <Content />
+              
+              <!-- SEO内容 -->
+              <div class="seo-content">
+                <h2>Mac软件说明</h2>
+                <p>{title} for Mac是一款专为苹果电脑用户设计的{category}软件，它充分利用了Mac系统的优势，提供了更好的用户体验。</p>
+                <p>这款软件版本为v{version}，于{publishDate.toLocaleDateString('zh-CN')}发布，{updateDate.toLocaleDateString('zh-CN')}更新，由{author}推荐。</p>
+                <p>作为一款{category}软件，{title}可以帮助Mac用户{description}。</p>
+                <p>我们提供的所有Mac软件均经过严格筛选，确保安全、纯净、无广告，让您的Mac系统保持最佳状态。</p>
+              </div>
             </div>
           </div>
 
@@ -81,8 +94,12 @@ const { title, description, version, category, tags, downloadUrl, fileSize, publ
               <h3>下载信息</h3>
               <div class="info-list">
                 <div class="info-item">
+                  <span class="info-label">软件名称</span>
+                  <span class="info-value">{title} for Mac</span>
+                </div>
+                <div class="info-item">
                   <span class="info-label">版本</span>
-                  <span class="info-value">{version}</span>
+                  <span class="info-value">v{version}</span>
                 </div>
                 <div class="info-item">
                   <span class="info-label">文件大小</span>
@@ -96,6 +113,18 @@ const { title, description, version, category, tags, downloadUrl, fileSize, publ
                   <span class="info-label">发布日期</span>
                   <span class="info-value">{publishDate.toLocaleDateString('zh-CN')}</span>
                 </div>
+                <div class="info-item">
+                  <span class="info-label">更新日期</span>
+                  <span class="info-value">{updateDate.toLocaleDateString('zh-CN')}</span>
+                </div>
+                <div class="info-item">
+                  <span class="info-label">推荐人</span>
+                  <span class="info-value">{author}</span>
+                </div>
+                <div class="info-item">
+                  <span class="info-label">下载次数</span>
+                  <span class="info-value">{downloadCount.toLocaleString()}</span>
+                </div>
               </div>
               <a href={downloadUrl} target="_blank" rel="noopener noreferrer" class="download-button">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -103,7 +132,7 @@ const { title, description, version, category, tags, downloadUrl, fileSize, publ
                   <polyline points="7 10 12 15 17 10"/>
                   <line x1="12" y1="15" x2="12" y2="3"/>
                 </svg>
-                立即下载
+                立即下载 for Mac
               </a>
             </div>
 
@@ -113,6 +142,8 @@ const { title, description, version, category, tags, downloadUrl, fileSize, publ
                 {tags.map(tag => (
                   <span class="tag">{tag}</span>
                 ))}
+                <span class="tag">Mac</span>
+                <span class="tag">苹果电脑</span>
               </div>
             </div>
 
@@ -122,7 +153,7 @@ const { title, description, version, category, tags, downloadUrl, fileSize, publ
                 <div class="screenshots">
                   {screenshots.map((screenshot, index) => (
                     <a href={screenshot} target="_blank" rel="noopener noreferrer" class="screenshot-link">
-                      <img src={screenshot} alt={`${title} 截图 ${index + 1}`} class="screenshot-thumb" loading="lazy" />
+                      <img src={screenshot} alt={`${title} for Mac 截图 ${index + 1}`} class="screenshot-thumb" loading="lazy" />
                     </a>
                   ))}
                 </div>
@@ -243,6 +274,12 @@ const { title, description, version, category, tags, downloadUrl, fileSize, publ
   .content-card :global(li) {
     margin-bottom: 0.5rem;
     line-height: 1.6;
+  }
+
+  .seo-content {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--border);
   }
 
   .sidebar {
