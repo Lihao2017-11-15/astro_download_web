@@ -9,40 +9,155 @@ import { getCollection } from 'astro:content';
 
 const allSoftware = await getCollection('software');
 const featuredSoftware = allSoftware.filter(s => s.data.featured);
-const recentSoftware = allSoftware
-  .sort((a, b) => b.data.updateDate.valueOf() - a.data.updateDate.valueOf())
-  .slice(0, 6);
+
+// 按更新日期排序
+const sortedSoftware = allSoftware
+  .sort((a, b) => b.data.updateDate.valueOf() - a.data.updateDate.valueOf());
+
+// 按分类获取软件
+const getSoftwareByCategory = (category) => {
+  return allSoftware
+    .filter(s => s.data.category === category)
+    .slice(0, 4);
+};
+
+const popularCategories = [
+  { name: '工具', desc: '实用的Mac工具软件' },
+  { name: '媒体', desc: 'Mac媒体播放与编辑' },
+  { name: '办公', desc: 'Mac办公效率软件' },
+  { name: '设计', desc: 'Mac设计创意软件' },
+  { name: '网络', desc: 'Mac网络工具软件' },
+  { name: '娱乐', desc: 'Mac娱乐休闲软件' }
+];
+
+// 将软件数据序列化为 JSON，供客户端使用
+const softwareData = sortedSoftware.map(software => ({
+  slug: software.slug,
+  data: {
+    title: software.data.title || '未知',
+    category: software.data.category || '其他',
+    description: software.data.description || '暂无描述',
+    fileSize: software.data.fileSize || '未知',
+    version: software.data.version || '未知',
+    downloadCount: software.data.downloadCount || 0,
+    tags: software.data.tags || [],
+    featured: software.data.featured || false
+  }
+}));
 ---
 
-<Layout title="首页">
+<Layout 
+  title="首页" 
+  description="Mac优质软件下载站，提供免费、安全、纯净的苹果电脑软件，包括工具、开发、媒体、办公等各类Mac软件下载"
+  keywords="Mac软件,苹果电脑软件,免费Mac软件,Mac下载,Mac工具,Mac开发,Mac办公,Mac设计"
+>
   <Header />
   <main>
     <Hero />
     
     <section class="container section">
-      <h2 class="section-title">精选软件</h2>
+      <h2 class="section-title">精选Mac软件</h2>
       <CategoryFilter />
       
-      <div class="software-grid">
-        {recentSoftware.map(software => (
-          <SoftwareCard software={software} />
-        ))}
+      <div id="software-container" class="software-grid"></div>
+      
+      <!-- 分页 -->
+      <div id="pagination" class="pagination" style="display: none;"></div>
+    </section>
+
+    <!-- 分类推荐 -->
+    <section class="container section categories-section">
+      <h2 class="section-title">热门分类</h2>
+      <div class="categories-grid">
+        {popularCategories.map(category => {
+          const categorySoftware = getSoftwareByCategory(category.name);
+          return (
+            <div key={category.name} class="category-card">
+              <a href={`/category/${category.name}`} class="category-header">
+                <h3>{category.name}</h3>
+                <span class="category-desc">{category.desc}</span>
+                <span class="category-count">{getSoftwareByCategory(category.name).length} 款软件</span>
+              </a>
+              <div class="category-software">
+                {categorySoftware.map(software => (
+                  <a key={software.slug} href={`/software/${software.slug}`} class="category-software-item">
+                    <span class="software-name">{software.data.title}</span>
+                    <span class="software-version">v{software.data.version}</span>
+                  </a>
+                ))}
+                <a href={`/category/${category.name}`} class="category-more">
+                  查看更多 →
+                </a>
+              </div>
+            </div>
+          );
+        })}
       </div>
     </section>
 
     <section class="container section stats-section">
       <div class="stats-grid">
         <div class="stat-item">
+          <div class="stat-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M20 7h-4V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v3H4a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"/>
+              <polyline points="16 17 12 13 8 17"/>
+            </svg>
+          </div>
           <span class="stat-number">{allSoftware.length}+</span>
-          <span class="stat-label">软件收录</span>
+          <span class="stat-label">Mac软件收录</span>
         </div>
         <div class="stat-item">
-          <span class="stat-number">{allSoftware.reduce((acc, s) => acc + s.data.downloadCount, 0).toLocaleString()}+</span>
+          <div class="stat-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+              <polyline points="7 10 12 15 17 10"/>
+              <line x1="12" y1="15" x2="12" y2="3"/>
+            </svg>
+          </div>
+          <span class="stat-number">{allSoftware.reduce((acc, s) => acc + s.data.downloadCount, 1000000).toLocaleString()}+</span>
           <span class="stat-label">总下载量</span>
         </div>
         <div class="stat-item">
+          <div class="stat-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+              <polyline points="22 4 12 14.01 9 11.01"/>
+            </svg>
+          </div>
           <span class="stat-number">100%</span>
           <span class="stat-label">免费安全</span>
+        </div>
+        <div class="stat-item">
+          <div class="stat-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+            </svg>
+          </div>
+          <span class="stat-number">{new Set(allSoftware.map(s => s.data.category)).size}</span>
+          <span class="stat-label">分类覆盖</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEO内容 -->
+    <section class="container section seo-section">
+      <div class="seo-content-wrapper">
+        <div class="seo-content">
+          <h2 class="seo-title">关于我们</h2>
+          <p>Mac软件下载站是一个专注于为Mac用户提供优质免费软件的平台，我们精心挑选每一款软件，确保它们都是安全、纯净、无广告的。</p>
+          <p>我们收录了各类Mac软件，包括工具、开发、媒体、办公、设计、网络等多个类别，满足Mac用户的各种需求。</p>
+          <p>所有软件均经过严格筛选，确保无恶意代码，无捆绑软件，让您的Mac系统保持干净整洁。</p>
+          <p>我们定期更新软件库，确保您能获取到最新版本的软件。如果您有任何问题或建议，欢迎联系我们。</p>
+        </div>
+        <div class="seo-image">
+          <svg width="200" height="200" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+            <line x1="8" y1="21" x2="16" y2="21"/>
+            <line x1="12" y1="17" x2="12" y2="21"/>
+            <circle cx="8" cy="8" r="1"/>
+            <circle cx="16" cy="8" r="1"/>
+          </svg>
         </div>
       </div>
     </section>
@@ -50,48 +165,127 @@ const recentSoftware = allSoftware
   <Footer />
 </Layout>
 
-<style>
-  .section {
-    padding: 3rem 0;
+<script define:vars={{ softwareData }}>
+  // 获取 DOM 元素
+  const softwareContainer = document.getElementById('software-container');
+  const pagination = document.getElementById('pagination');
+
+  // 分页设置
+  const pageSize = 12;
+  let currentPage = 1;
+  let totalPages = 1;
+
+  // 获取当前页码
+  function getCurrentPage() {
+    const params = new URLSearchParams(window.location.search);
+    return Math.max(1, parseInt(params.get('page') || '1'));
   }
 
-  .section-title {
-    text-align: center;
-    font-size: 1.5rem;
-    margin-bottom: 1.5rem;
-    color: var(--text);
+  // 显示软件列表
+  function displaySoftware() {
+    currentPage = getCurrentPage();
+    totalPages = Math.ceil(softwareData.length / pageSize);
+
+    // 分页显示结果
+    const startIndex = (currentPage - 1) * pageSize;
+    const endIndex = startIndex + pageSize;
+    const paginatedSoftware = softwareData.slice(startIndex, endIndex);
+
+    softwareContainer.innerHTML = paginatedSoftware.map(software => `
+      <article class="software-card" data-featured="${software.data.featured}">
+        <div class="card-header">
+          <div class="header-info">
+            <h3><a href="/software/${software.slug}">${software.data.title}</a></h3>
+            <span class="category">${software.data.category}</span>
+          </div>
+          ${software.data.featured ? '<span class="badge">精选</span>' : ''}
+        </div>
+        <p class="description">${software.data.description}</p>
+        <div class="meta">
+          <span class="meta-item">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+              <polyline points="7 10 12 15 17 10"/>
+              <line x1="12" y1="15" x2="12" y2="3"/>
+            </svg>
+            ${software.data.fileSize}
+          </span>
+          <span class="meta-item">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 2v20M2 12h20"/>
+            </svg>
+            v${software.data.version}
+          </span>
+          <span class="meta-item">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+              <circle cx="12" cy="12" r="3"/>
+            </svg>
+            ${software.data.downloadCount.toLocaleString()} 下载
+          </span>
+        </div>
+        <div class="tags">
+          ${software.data.tags.slice(0, 3).map(tag => `<span class="tag">${tag}</span>`).join('')}
+        </div>
+        <a href="/software/${software.slug}" class="details-link">查看详情 →</a>
+      </article>
+    `).join('');
+
+    // 显示分页
+    if (totalPages > 1) {
+      renderPagination();
+    } else {
+      pagination.style.display = 'none';
+    }
   }
 
-  .software-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-    gap: 1.5rem;
+  // 渲染分页
+  function renderPagination() {
+    pagination.style.display = 'flex';
+
+    const showPages = 5;
+    const half = Math.floor(showPages / 2);
+    let start = Math.max(1, currentPage - half);
+    let end = Math.min(totalPages, start + showPages - 1);
+
+    if (end - start + 1 < showPages) {
+      start = Math.max(1, end - showPages + 1);
+    }
+
+    let paginationHTML = '';
+
+    // 上一页
+    if (currentPage > 1) {
+      const prevPage = currentPage - 1;
+      const prevUrl = updateUrlParam('page', prevPage);
+      paginationHTML += `<a href="${prevUrl}" class="pagination-btn pagination-prev">← 上一页</a>`;
+    }
+
+    // 页码
+    paginationHTML += '<div class="pagination-numbers">';
+    for (let i = start; i <= end; i++) {
+      const pageUrl = updateUrlParam('page', i);
+      paginationHTML += `<a href="${pageUrl}" class="pagination-number ${i === currentPage ? 'active' : ''}">${i}</a>`;
+    }
+    paginationHTML += '</div>';
+
+    // 下一页
+    if (currentPage < totalPages) {
+      const nextPage = currentPage + 1;
+      const nextUrl = updateUrlParam('page', nextPage);
+      paginationHTML += `<a href="${nextUrl}" class="pagination-btn pagination-next">下一页 →</a>`;
+    }
+
+    pagination.innerHTML = paginationHTML;
   }
 
-  .stats-section {
-    background: var(--surface);
-    border-top: 1px solid var(--border);
-    border-bottom: 1px solid var(--border);
-    padding: 3rem 0;
+  // 更新URL参数
+  function updateUrlParam(key, value) {
+    const params = new URLSearchParams(window.location.search);
+    params.set(key, value);
+    return `${window.location.pathname}?${params.toString()}`;
   }
 
-  .stats-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 2rem;
-    text-align: center;
-  }
-
-  .stat-number {
-    display: block;
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: var(--primary);
-    margin-bottom: 0.5rem;
-  }
-
-  .stat-label {
-    color: var(--text-muted);
-    font-size: 0.875rem;
-  }
-</style>
+  // 页面加载时显示软件列表
+  displaySoftware();
+</script>
