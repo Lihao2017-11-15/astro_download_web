@@ -113,7 +113,7 @@ const softwareData = allSoftware.map(software => ({
       resultsContainer.innerHTML = results.map(software => `
         <article class="software-card" data-featured="${software.data.featured}">
           <div class="card-header">
-            <div class="icon-placeholder">${software.data.title.charAt(0)}</div>
+            <!-- <div class="icon-placeholder">${software.data.title.charAt(0)}</div> -->
             <div class="header-info">
               <h3><a href="/software/${software.slug}">${software.data.title}</a></h3>
               <span class="category">${software.data.category}</span>
