@@ -6,7 +6,7 @@ interface Props {
 }
 
 const { software } = Astro.props;
-const { title, description, version, category, tags, fileSize, downloadCount, featured, icon } = software.data;
+const { title, description, version, category, tags, icon, featured } = software.data;
 ---
 
 <article class="software-card" data-featured={featured}>
@@ -28,24 +28,9 @@ const { title, description, version, category, tags, fileSize, downloadCount, fe
   <div class="meta">
     <span class="meta-item">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
-        <polyline points="7 10 12 15 17 10"/>
-        <line x1="12" y1="15" x2="12" y2="3"/>
-      </svg>
-      {fileSize}
-    </span>
-    <span class="meta-item">
-      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
         <path d="M12 2v20M2 12h20"/>
       </svg>
       v{version}
-    </span>
-    <span class="meta-item">
-      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
-        <circle cx="12" cy="12" r="3"/>
-      </svg>
-      {downloadCount.toLocaleString()} 下载
     </span>
   </div>
   

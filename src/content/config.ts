@@ -9,13 +9,11 @@ const softwareCollection = defineCollection({
     category: z.string(),
     tags: z.array(z.string()),
     downloadUrl: z.string(),
-    fileSize: z.string(),
     publishDate: z.date(),
     updateDate: z.date(),
     author: z.string(),
     icon: z.string().optional(),
     screenshots: z.array(z.string()).optional(),
-    downloadCount: z.number().default(0),
     featured: z.boolean().default(false),
   }),
 });

@@ -42,7 +42,7 @@ const categoryDescriptions = {
   '其他': '其他实用的Mac软件'
 };
 
-const categoryDescription = categoryDescriptions[category] || 'Mac软件分类';
+const categoryDescription = (categoryDescriptions as Record<string, string>)[category] || 'Mac软件分类';
 
 // 将软件数据序列化为 JSON，供客户端使用
 const softwareData = sortedSoftware.map(software => ({
@@ -51,9 +51,7 @@ const softwareData = sortedSoftware.map(software => ({
     title: software.data.title || '未知',
     category: software.data.category || '其他',
     description: software.data.description || '暂无描述',
-    fileSize: software.data.fileSize || '未知',
     version: software.data.version || '未知',
-    downloadCount: software.data.downloadCount || 0,
     tags: software.data.tags || [],
     featured: software.data.featured || false
   }
@@ -136,24 +134,9 @@ const softwareData = sortedSoftware.map(software => ({
         <div class="meta">
           <span class="meta-item">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
-              <polyline points="7 10 12 15 17 10"/>
-              <line x1="12" y1="15" x2="12" y2="3"/>
-            </svg>
-            ${software.data.fileSize}
-          </span>
-          <span class="meta-item">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <path d="M12 2v20M2 12h20"/>
             </svg>
             v${software.data.version}
-          </span>
-          <span class="meta-item">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
-              <circle cx="12" cy="12" r="3"/>
-            </svg>
-            ${software.data.downloadCount.toLocaleString()} 下载
           </span>
         </div>
         <div class="tags">

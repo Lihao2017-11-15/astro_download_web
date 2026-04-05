@@ -14,7 +14,7 @@ export async function getStaticPaths() {
 
 const { entry } = Astro.props;
 const { Content } = await entry.render();
-const { title, description, version, category, tags, downloadUrl, fileSize, publishDate, updateDate, author, downloadCount, icon, screenshots } = entry.data;
+const { title, description, version, category, tags, downloadUrl, publishDate, updateDate, author, icon, screenshots, featured } = entry.data;
 ---
 
 <Layout 
@@ -43,33 +43,6 @@ const { title, description, version, category, tags, downloadUrl, fileSize, publ
           <div class="header-content">
             <h1>{title} for Mac</h1>
             <p class="description">{description}</p>
-            <!-- 
-            <div class="meta-row">
-              <span class="meta-item">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
-                  <circle cx="12" cy="7" r="4"/>
-                </svg>
-                {author}
-              </span>
-              <span class="meta-item">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
-                  <line x1="16" y1="2" x2="16" y2="6"/>
-                  <line x1="8" y1="2" x2="8" y2="6"/>
-                  <line x1="3" y1="10" x2="21" y2="10"/>
-                </svg>
-                更新于 {updateDate.toLocaleDateString('zh-CN')}
-              </span>
-              <span class="meta-item">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
-                  <circle cx="12" cy="12" r="3"/>
-                </svg>
-                {downloadCount.toLocaleString()} 次下载
-              </span>
-            </div>
-            -->
           </div>
         </header>
 
@@ -102,10 +75,6 @@ const { title, description, version, category, tags, downloadUrl, fileSize, publ
                   <span class="info-value">v{version}</span>
                 </div>
                 <div class="info-item">
-                  <span class="info-label">文件大小</span>
-                  <span class="info-value">{fileSize}</span>
-                </div>
-                <div class="info-item">
                   <span class="info-label">分类</span>
                   <span class="info-value">{category}</span>
                 </div>
@@ -121,10 +90,6 @@ const { title, description, version, category, tags, downloadUrl, fileSize, publ
                   <span class="info-label">推荐人</span>
                   <span class="info-value">{author}</span>
                 </div>
-                <div class="info-item">
-                  <span class="info-label">下载次数</span>
-                  <span class="info-value">{downloadCount.toLocaleString()}</span>
-                </div>
               </div>
               <a href={downloadUrl} target="_blank" rel="noopener noreferrer" class="download-button">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -139,7 +104,7 @@ const { title, description, version, category, tags, downloadUrl, fileSize, publ
             <div class="sidebar-card">
               <h3>标签</h3>
               <div class="tags">
-                {tags.map(tag => (
+                {tags.map((tag: string) => (
                   <span class="tag">{tag}</span>
                 ))}
                 <span class="tag">Mac</span>
@@ -151,7 +116,7 @@ const { title, description, version, category, tags, downloadUrl, fileSize, publ
               <div class="sidebar-card">
                 <h3>软件截图</h3>
                 <div class="screenshots">
-                  {screenshots.map((screenshot, index) => (
+                  {screenshots.map((screenshot: string, index: number) => (
                     <a href={screenshot} target="_blank" rel="noopener noreferrer" class="screenshot-link">
                       <img src={screenshot} alt={`${title} for Mac 截图 ${index + 1}`} class="screenshot-thumb" loading="lazy" />
                     </a>
