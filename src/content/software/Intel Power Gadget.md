@@ -13,12 +13,6 @@ featured: false
 
 # Intel Power Gadget
 
-## 软件简介
-
-“是一款对 CPU 电源使用情况进行监控的小工具，它可以实时监控基于 Intel各平台（包括台式机或笔记本） CPU 的功耗、负载、频率、温度等。”
-
-## 详细介绍
-
 概述
 
 是一款对 CPU 电源使用情况进行监控的软件，可以实时监控基于 Intel各平台（包括台式机或笔记本） CPU 的功耗、负载、频率、温度等情况。
@@ -32,12 +26,3 @@ featured: false
 ## 推荐语
 
 Intel Power Gadget 是因特尔官方出品的一款基于软件对 CPU 电源使用情况进行监控的小工具，它可以实时监控基于 Intel各平台（包括台式机或笔记本） CPU 的功耗、负载、频率、温度等情况。
-
-## 下载信息
-
-- **版本**: V 3.6
-- **下载链接**: [https://dlied6.qq.com/invc/xfspeed/qqpcmgr/module_update/IntelPowerGadget370.dmg](https://dlied6.qq.com/invc/xfspeed/qqpcmgr/module_update/IntelPowerGadget370.dmg)
-- **发布日期**: 2020-07-02
-- **更新日期**: 2020-07-02
-- **推荐人**: 多么克萨拉姆
-- **分类**: CPU监测工具

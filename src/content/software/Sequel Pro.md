@@ -13,12 +13,6 @@ featured: false
 
 # Sequel Pro
 
-## 软件简介
-
-“免费，轻量级数据库管理软件。”
-
-## 详细介绍
-
 * 入门使用说明： https://sequelpro.com/docs/ref/core-features；
 
 概述
@@ -35,12 +29,3 @@ featured: false
 ## 推荐语
 
 免费，轻量级数据库管理软件。
-
-## 下载信息
-
-- **版本**: V 1.1.2
-- **下载链接**: [https://sequelpro.com/download#auto-start](https://sequelpro.com/download#auto-start)
-- **发布日期**: 2020-05-14
-- **更新日期**: 2020-05-14
-- **推荐人**: Neo
-- **分类**: 数据库管理

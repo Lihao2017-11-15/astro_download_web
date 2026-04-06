@@ -13,12 +13,6 @@ featured: false
 
 # Parallels Desktop
 
-## 软件简介
-
-“是一款Mac 上强大的虚拟机软件，可以在 Mac 下模拟运行 Win、Linux、Android 等多种操作系统不必重启电脑，支持在不同系统间随意切换。作为 macOS 上最强的虚拟机软件，PD16 绝对是最值得入手正版的软件之一。”
-
-## 详细介绍
-
 概述
 
 是一款Mac 上强大的虚拟机软件，可以在 Mac 下模拟运行 Win、Linux、Android 等多种操作系统不必重启电脑，支持在不同系统间随意切换。
@@ -32,12 +26,3 @@ featured: false
 ## 推荐语
 
 作为 macOS 上最强的虚拟机软件，PD16 绝对是最值得入手正版的软件之一。即日起至 11 月 17日入手 PD 仅需 349 元
-
-## 下载信息
-
-- **版本**: V 16.0
-- **下载链接**: [https://store.lizhi.io/site/products/id/92?cid=enqvaglc](https://store.lizhi.io/site/products/id/92?cid=enqvaglc)
-- **发布日期**: 2020-11-12
-- **更新日期**: 2020-11-12
-- **推荐人**: lemon的朋友
-- **分类**: 虚拟机

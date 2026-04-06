@@ -13,12 +13,6 @@ featured: false
 
 # Office 365
 
-## 软件简介
-
-“Microsoft 365 是一个基于云的订阅服务，由 Office 365 升级而来。汇集大家日常工作与学习中使用的 Word、Excel、PowerPoint 等 Office 办公套件，还结合了 OneDrive、Outlook 等强大的云服务。”
-
-## 详细介绍
-
 概述
 
 Microsoft 365 是一个基于云的订阅服务，由 Office 365 升级而来。全新名称，更多权益，价格不变。汇集大家日常工作与学习中使用的 Word、Excel、PowerPoint 等 Office 办公套件，还结合了 OneDrive、Outlook 等强大的云服务。让用户可以使用任何设备随时随地创建和共享内容。
@@ -32,12 +26,3 @@ Microsoft 365 是一个基于云的订阅服务，由 Office 365 升级而来。
 ## 推荐语
 
 Office 365 个人版家庭版 限时优惠259元，推荐购买，1 账号，每账号可激活 5 设备。
-
-## 下载信息
-
-- **版本**: V 16.0
-- **下载链接**: [https://store.lizhi.io/site/products/id/65?cid=enqvaglc](https://store.lizhi.io/site/products/id/65?cid=enqvaglc)
-- **发布日期**: 2020-11-26
-- **更新日期**: 2020-11-26
-- **推荐人**: lemon的朋友
-- **分类**: 办公软件

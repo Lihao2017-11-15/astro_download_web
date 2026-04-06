@@ -13,12 +13,6 @@ featured: false
 
 # Mark Text
 
-## 软件简介
-
-“一款所见即所得的Markdown编辑器，内置多种主题可自由切换，最大的亮点是支持斗图，快捷键就可以打开表情包搜索。”
-
-## 详细介绍
-
 概述
 
 Mark Text 是一款所见即所得的Markdown编辑器
@@ -33,12 +27,3 @@ Mark Text 是一款所见即所得的Markdown编辑器
 ## 推荐语
 
 1. 所输即所见，摒弃众多 Markdown 编辑器左边写作右边预览的写作方式，将编辑和预览窗口融为一体2. 使用Snabbdom作为渲染引擎，极速渲染编辑页面，带来流畅的编辑体验3. 支持 CommonMark Spec 和 GitHub Flavored Markdown Spec 语法格式，支持复制 Markdown 格式文本到其他 App 或浏览器4. 快捷键设置段落及行内样式，提高编辑效率5. 可导出 HTML 和 PDF 格式文本6. 黑、白两款主题7. 支持Source code、Typewriter、Focus编辑模式
-
-## 下载信息
-
-- **版本**: V 0.15.1
-- **下载链接**: [https://github.com/marktext/marktext/releases/download/v0.15.1/marktext-0.15.1.dmg](https://github.com/marktext/marktext/releases/download/v0.15.1/marktext-0.15.1.dmg)
-- **发布日期**: 2020-04-02
-- **更新日期**: 2020-04-02
-- **推荐人**: xiaolf
-- **分类**: markdown

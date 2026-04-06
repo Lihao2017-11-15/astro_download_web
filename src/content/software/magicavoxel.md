@@ -13,12 +13,6 @@ featured: false
 
 # MagicaVoxel
 
-## 软件简介
-
-“Magicavoxel是一款开源免费的轻量级8-bit体素编辑器，具有媲美C4D的渲染效果；且操作简便，轻松实现像素风，乐高风等一系列卡通风格设计效果～”
-
-## 详细介绍
-
 * 解压后直接打开应用时黑屏，需将应用移动到其他任意位置，再拖回原位置，重新打开即可正常显示。
 
 概述
@@ -35,12 +29,3 @@ Magicavoxel是一款开源免费的轻量级8-bit体素编辑器，具有媲美C
 ## 推荐语
 
 Magicavoxel是一款开源免费的轻量级8-bit体素编辑器，具有媲美c4d的渲染效果，且操作简便。在实现像素风，乐高风等一系列卡通风格设计效果时，有先天的优势特点。
-
-## 下载信息
-
-- **版本**: V 0.99.4
-- **下载链接**: [https://github.com/ephtracy/ephtracy.github.io/releases/download/0.99.4/MagicaVoxel-0.99.4.2-alpha-macos.zip](https://github.com/ephtracy/ephtracy.github.io/releases/download/0.99.4/MagicaVoxel-0.99.4.2-alpha-macos.zip)
-- **发布日期**: 2020-03-12
-- **更新日期**: 2020-03-12
-- **推荐人**: NO.663
-- **分类**: 3D建模

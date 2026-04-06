@@ -13,12 +13,6 @@ featured: false
 
 # KeyboardCleanTool
 
-## 软件简介
-
-“KeyboardCleanTool是一款支持锁定或解锁键盘输入的工具，方便在开机状态下进行键盘的清洁工作。”
-
-## 详细介绍
-
 概述
 
 KeyboardCleanTool是一款支持锁定或解锁键盘输入的工具，方便在开机状态下进行键盘的清洁工作。
@@ -31,12 +25,3 @@ KeyboardCleanTool是一款支持锁定或解锁键盘输入的工具，方便在
 ## 推荐语
 
 KeyboardCleanTool只有一个按钮对应一个功能，就是锁定或解锁键盘输入，方便在开机状态下进行键盘的清洁工作。
-
-## 下载信息
-
-- **版本**: V 3.0
-- **下载链接**: [https://folivora.ai/releases/KeyboardCleanTool.zip](https://folivora.ai/releases/KeyboardCleanTool.zip)
-- **发布日期**: 2020-11-19
-- **更新日期**: 2020-11-19
-- **推荐人**: Gingersnap
-- **分类**: 键盘锁定

@@ -13,12 +13,6 @@ featured: false
 
 # Mounty
 
-## 软件简介
-
-“一款免费、在macOS下支持读写保护重新挂载NTFS卷的软件。支持macOS 10.15系统，操作极其简单，没有操作界面，只有一个通知栏用于挂载硬盘。”
-
-## 详细介绍
-
 * 常见问题说明： https://mounty.app/#FAQs
 
 概述
@@ -33,12 +27,3 @@ Mounty Mac版是Mac上一款免费的NTFS格式读写工具。这个软件是通
 ## 推荐语
 
 一款免费的用于以读写模式在macOS下重新挂载受写保护的NTFS卷的软件。支持macOS 10.15，操作极其简单，没有操作界面，只有一个通知栏用于挂载硬盘。
-
-## 下载信息
-
-- **版本**: V 1.9
-- **下载链接**: [https://mounty.app/releases/Mounty.dmg](https://mounty.app/releases/Mounty.dmg)
-- **发布日期**: 2020-03-12
-- **更新日期**: 2020-03-12
-- **推荐人**: 时之沙
-- **分类**: NTFS挂载

@@ -13,12 +13,6 @@ featured: false
 
 # Electerm
 
-## 软件简介
-
-“是一款开源免费的跨平台终端工具，还具有文件管理，sftp客户端，ssh远程连接等功能，同时具有书签、快速命令、访问历史、SFTP传输历史等功能。”
-
-## 详细介绍
-
 概述
 
 是一款开源免费的跨平台终端工具，还具有文件管理，sftp客户端，ssh远程连接等功能，同时具有书签、快速命令、访问历史、SFTP传输历史等功能。
@@ -34,12 +28,3 @@ featured: false
 ## 推荐语
 
 Electerm 是一款适用于Linux、Mac、Windows多平台免费的终端模拟器/ssh/sftp客户端软件，基于electron/ssh2/node-pty/xterm/antd等组件，它不仅仅只是一款终端模拟软件，同时还具有文件管理，sftp客户端，ssh远程连接等功能，同时具有书签、快速命令、访问历史、sftp传输历史、主题等功能。
-
-## 下载信息
-
-- **版本**: V 1.3.8
-- **下载链接**: [https://dlied6.qq.com/invc/xfspeed/qqpcmgr/module_update/electerm1111.dmg](https://dlied6.qq.com/invc/xfspeed/qqpcmgr/module_update/electerm1111.dmg)
-- **发布日期**: 2020-04-23
-- **更新日期**: 2020-04-23
-- **推荐人**: 相遥
-- **分类**: 终端工具

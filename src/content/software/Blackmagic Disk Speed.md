@@ -13,12 +13,6 @@ featured: false
 
 # Blackmagic Disk Speed
 
-## 软件简介
-
-“是一款Mac平台的硬盘读写速度测试工具 ，可以快速测试本机硬盘或外接硬盘、U盘等的读写速度，评估硬盘性能和可读性    ”
-
-## 详细介绍
-
 概述
 
 是一款Mac平台的硬盘读写速度测试工具 ，可以快速测试本机硬盘或外接硬盘、U盘等的读写速度，评估硬盘性能和可读性
@@ -31,12 +25,3 @@ featured: false
 ## 推荐语
 
 好用的Mac磁盘测速软件。
-
-## 下载信息
-
-- **版本**: V 3.2
-- **下载链接**: [https://apps.apple.com/cn/app/blackmagic-disk-speed-test/id425264550?mt=12](https://apps.apple.com/cn/app/blackmagic-disk-speed-test/id425264550?mt=12)
-- **发布日期**: 2020-07-23
-- **更新日期**: 2020-07-23
-- **推荐人**: JayWang
-- **分类**: 硬盘测速工具

@@ -13,12 +13,6 @@ featured: false
 
 # Moment
 
-## 软件简介
-
-“Moment 是一款常驻于 macOS 菜单栏和通知中心里的倒数日应用，美观小巧不打扰，每一天都值得期待！”
-
-## 详细介绍
-
 概述
 
 Moment 是一款常驻于 macOS 菜单栏和通知中心里的倒数日应用，美观小巧不打扰，每一天都值得期待！
@@ -32,12 +26,3 @@ Moment 是一款常驻于 macOS 菜单栏和通知中心里的倒数日应用，
 ## 推荐语
 
 好用的倒数日时间进度查看和纪念日提醒工具。
-
-## 下载信息
-
-- **版本**: V 1.2.1
-- **下载链接**: [https://store.lizhi.io/site/products/id/333?cid=enqvaglc](https://store.lizhi.io/site/products/id/333?cid=enqvaglc)
-- **发布日期**: 2020-12-31
-- **更新日期**: 2020-12-31
-- **推荐人**: 哥哥不灵
-- **分类**: 倒数日应用

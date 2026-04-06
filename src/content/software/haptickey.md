@@ -13,12 +13,6 @@ featured: false
 
 # HapticKey
 
-## 软件简介
-
-“一款针对TouchBar的简单实用软件，支持在点击Touch Bar时提供给你触觉反馈、音效等，让你的TouchBar使用起来更顺手。”
-
-## 详细介绍
-
 概述
 
 Mac上一款针对TouchBar的简单实用软件，支持在Touch Bar点击时提供给你触觉反馈，优化Touchbar使用体验。
@@ -32,12 +26,3 @@ Mac上一款针对TouchBar的简单实用软件，支持在Touch Bar点击时提
 ## 推荐语
 
 HapticKey是带有Touch Bar的MacBook的简单实用程序，在点击Touch Bar时会触发触觉反馈。由于Touch Bar只是一个平板，因此除了视觉上显示的按键变化外，没有其他反馈，因此特别是在像使用Vim一样轻击ESC键时，这非常不舒服。通过添加触觉反馈，可以使触控板而不是Touch Bar本身振动，这有助于改善Touch Bar的使用率。它还可以选择播放声音效果或在终端上像可视铃一样闪烁屏幕。
-
-## 下载信息
-
-- **版本**: V 0.5.0
-- **下载链接**: [https://dlied6.qq.com/invc/xfspeed/qqpcmgr/module_update/HapticKey.app.zip](https://dlied6.qq.com/invc/xfspeed/qqpcmgr/module_update/HapticKey.app.zip)
-- **发布日期**: 2020-05-21
-- **更新日期**: 2020-05-21
-- **推荐人**: Augus
-- **分类**: TouchBar触控

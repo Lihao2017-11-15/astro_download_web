@@ -13,12 +13,6 @@ featured: false
 
 # Battery Stats for AirPods
 
-## 软件简介
-
-“轻点状态栏上按钮一键连接或断开Airpods连接。还支持显示电量信息，自主设置低电量提示，小巧又方便。”
-
-## 详细介绍
-
 概述
 
 状态栏上点击图标一键通过蓝牙连接airpods，显示电量信息及百分比。
@@ -31,12 +25,3 @@ featured: false
 ## 推荐语
 
 在Mac上免费的一款软件，可以显示Airpods和充电盒的电量信息。
-
-## 下载信息
-
-- **版本**: V 1.0
-- **下载链接**: [https://apps.apple.com/cn/app/battery-stats-for-airpods/id1405763798?mt=12](https://apps.apple.com/cn/app/battery-stats-for-airpods/id1405763798?mt=12)
-- **发布日期**: 2019-12-19
-- **更新日期**: 2019-12-19
-- **推荐人**: Qiao_Lei
-- **分类**: Airpods连接

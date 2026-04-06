@@ -13,12 +13,6 @@ featured: false
 
 # Near Lock
 
-## 软件简介
-
-“Near Lock是一款用iPhone为Mac锁定/解锁的软件，非常方便实用。”
-
-## 详细介绍
-
 概述
 
 Near Lock mac版是一款用iPhone为Mac锁定/解锁的软件，非常方便实用。
@@ -35,12 +29,3 @@ Near Lock mac版是一款用iPhone为Mac锁定/解锁的软件，非常方便实
 ## 推荐语
 
 您可以轻松设置Mac自动锁定或解锁的距离。
-
-## 下载信息
-
-- **版本**: V 5.1
-- **下载链接**: [https://nearlock.me/downloads/nearlock.dmg](https://nearlock.me/downloads/nearlock.dmg)
-- **发布日期**: 2021-01-14
-- **更新日期**: 2021-01-14
-- **推荐人**: Dawson
-- **分类**: 远程锁屏

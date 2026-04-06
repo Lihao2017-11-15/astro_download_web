@@ -13,12 +13,6 @@ featured: false
 
 # draw.io
 
-## 软件简介
-
-“是一个强大简洁的绘图软件，支持流程图，UML图，架构图，原型图等，同时支持导出各种格式，比如png， pdf，svg，html 等，是一款不错的绘图软件，推荐下载。”
-
-## 详细介绍
-
 概述
 
 是一款免费的在线绘图工具。可以帮助用户快速创建图表和各种基于图像的流程图。简单易用，拥有丰富的高度自定义功能。
@@ -34,12 +28,3 @@ featured: false
 ## 推荐语
 
 画流程图架构图等很方便。
-
-## 下载信息
-
-- **版本**: V 13.3.9
-- **下载链接**: [https://dlied6.qq.com/invc/xfspeed/qqpcmgr/module_update/drawio1339.dmg](https://dlied6.qq.com/invc/xfspeed/qqpcmgr/module_update/drawio1339.dmg)
-- **发布日期**: 2020-07-09
-- **更新日期**: 2020-07-09
-- **推荐人**: 法老王
-- **分类**: 流程图神器

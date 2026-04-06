@@ -13,12 +13,6 @@ featured: false
 
 # Koala
 
-## 软件简介
-
-“开源免费的预处理器语言图形编译工具。支持less、sass、coffeescript、compass实时编译，同时支持跨平台：完美兼容Windows、Linux。”
-
-## 详细介绍
-
 * 开发者提供使用文档：https://github.com/oklai/koala/wiki#faq
 
 概述
@@ -35,12 +29,3 @@ featured: false
 ## 推荐语
 
 开源免费的预处理器语言图形编译工具。支持less、sass、coffeescript、compass实时编译，同时支持跨平台：完美兼容Windows、Linux。
-
-## 下载信息
-
-- **版本**: V 2.3.0
-- **下载链接**: [https://github.com/oklai/koala/releases/download/v2.3.0/Koala.dmg](https://github.com/oklai/koala/releases/download/v2.3.0/Koala.dmg)
-- **发布日期**: 2019-08-01
-- **更新日期**: 2019-08-01
-- **推荐人**: 王昕
-- **分类**: 语言图形编译

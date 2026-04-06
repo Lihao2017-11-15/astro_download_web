@@ -13,12 +13,6 @@ featured: false
 
 # Tiles
 
-## 软件简介
-
-“Tiles 是Mac系统上的一款极简主义窗口管理器。”
-
-## 详细介绍
-
 概述
 
 Tiles 是Mac系统上的一款极简主义窗口管理器。
@@ -31,12 +25,3 @@ Tiles 是Mac系统上的一款极简主义窗口管理器。
 ## 推荐语
 
 窗口管理软件，开源免费。
-
-## 下载信息
-
-- **版本**: V 1.2.1
-- **下载链接**: [https://updates.sempliva.com/tiles/Tiles-latest.dmg](https://updates.sempliva.com/tiles/Tiles-latest.dmg)
-- **发布日期**: 2021-05-28
-- **更新日期**: 2021-05-28
-- **推荐人**: sumire
-- **分类**: 窗口管理

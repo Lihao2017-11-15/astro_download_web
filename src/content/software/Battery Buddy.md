@@ -13,12 +13,6 @@ featured: false
 
 # Battery Buddy
 
-## 软件简介
-
-“Battery Buddy Mac版是一款非常可爱的Mac电脑电池监测和显示软件，它可以替代原生电池图标来帮助用户显示当前的电池情况。”
-
-## 详细介绍
-
 概述
 
 Battery Buddy Mac版是一款非常可爱的Mac电脑电池监测和显示软件，它可以替代原生电池图标来帮助用户显示当前的电池情况。
@@ -30,12 +24,3 @@ Battery Buddy Mac版是一款非常可爱的Mac电脑电池监测和显示软件
 ## 推荐语
 
 非常好看好玩的小电池图标，为你的办公设备增加趣味。
-
-## 下载信息
-
-- **版本**: V 1.0.3
-- **下载链接**: [https://batterybuddy.app/releases/Battery%20Buddy.zip](https://batterybuddy.app/releases/Battery%20Buddy.zip)
-- **发布日期**: 2021-04-01
-- **更新日期**: 2021-04-01
-- **推荐人**: 木尔希尔
-- **分类**: 电池显示软件

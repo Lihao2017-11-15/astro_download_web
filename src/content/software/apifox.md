@@ -13,12 +13,6 @@ featured: false
 
 # Apifox
 
-## 软件简介
-
-“Apifox 是接口管理、开发、测试全流程集成工具，定位 Postman + Swagger + Mock + JMeter。通过一套系统、一份数据，解决多个系统之间的数据同步问题，高效、及时、准确。”
-
-## 详细介绍
-
 概述
 
 Apifox 是接口管理、开发、测试全流程集成工具，定位 Postman + Swagger + Mock + JMeter。通过一套系统、一份数据，解决多个系统之间的数据同步问题，高效、及时、准确。
@@ -32,12 +26,3 @@ Apifox 是接口管理、开发、测试全流程集成工具，定位 Postman +
 ## 推荐语
 
 接口文档、调试、Mock、自动化测试，提升 10 倍效率！
-
-## 下载信息
-
-- **版本**: V1.0.26
-- **下载链接**: [https://apifox.lanzoux.com/apifox-mac-latest](https://apifox.lanzoux.com/apifox-mac-latest)
-- **发布日期**: 2020-12-10
-- **更新日期**: 2020-12-10
-- **推荐人**: zhaohaiyu
-- **分类**: 接口管理平台

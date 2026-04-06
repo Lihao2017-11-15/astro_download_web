@@ -13,12 +13,6 @@ featured: false
 
 # Pine Player
 
-## 软件简介
-
-“是Mac上一款无损音乐播放器，支持播放MP3、M4A、FLAC、WAV、AIFF等各种音频格式，功能很全面，喜欢音乐的人推荐下载。”
-
-## 详细介绍
-
 概述
 
 Pine Player 是一款macOS平台的音乐音频播放器。可以播放几乎所有的音频格式文件： MP3, FLAC, APE, AAC, M4A, WAV, AIFF, OGG, WMA, DSD等。最高支持播放32Bit 768Khz采样的音乐。
@@ -34,12 +28,3 @@ Pine Player 是一款macOS平台的音乐音频播放器。可以播放几乎所
 ## 推荐语
 
 pine player可自由转换多格式且缩小录音大小。非常的实用哈。
-
-## 下载信息
-
-- **版本**: V 1.27.13
-- **下载链接**: [https://apps.apple.com/cn/app/pine-player/id1112075769?mt=12](https://apps.apple.com/cn/app/pine-player/id1112075769?mt=12)
-- **发布日期**: 2020-07-23
-- **更新日期**: 2020-07-23
-- **推荐人**: 是瞿咯咯呀
-- **分类**: 音乐播放器

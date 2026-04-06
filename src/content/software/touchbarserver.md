@@ -13,12 +13,6 @@ featured: false
 
 # TouchBarServer
 
-## 软件简介
-
-“一款能让没有TouchBar的Mac在屏幕上体验原生TouchBar功能的应用。”
-
-## 详细介绍
-
 概述
 
 TouchBarServer是一款能让没有TouchBar的Mac在屏幕上实现原生TouchBar功能的应用.
@@ -32,12 +26,3 @@ TouchBarServer是一款能让没有TouchBar的Mac在屏幕上实现原生TouchBa
 ## 推荐语
 
 可以在不支持TouchBar的情况下使用TouchBar
-
-## 下载信息
-
-- **版本**: V 1.0
-- **下载链接**: [https://dlied6.qq.com/invc/xfspeed/qqpcmgr/module_update/TouchBarServer-1.1.zip](https://dlied6.qq.com/invc/xfspeed/qqpcmgr/module_update/TouchBarServer-1.1.zip)
-- **发布日期**: 2020-05-07
-- **更新日期**: 2020-05-07
-- **推荐人**: emm
-- **分类**: 虚拟Touchbar

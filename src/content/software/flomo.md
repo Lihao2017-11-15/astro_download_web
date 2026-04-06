@@ -13,12 +13,6 @@ featured: false
 
 # flomo
 
-## 软件简介
-
-“flomo是新一代卡片笔记工具，秉承尼克拉斯 · 卢曼（Niklas Luhmann）的卡片笔记法理念，让你能更好的利用碎片时间积累知识，建立知识间的关联。”
-
-## 详细介绍
-
 概述
 
 flomo是新一代卡片笔记工具，秉承尼克拉斯 · 卢曼（Niklas Luhmann）的卡片笔记法理念，让你能更好的利用碎片时间积累知识，建立知识间的关联。
@@ -33,12 +27,3 @@ flomo是新一代卡片笔记工具，秉承尼克拉斯 · 卢曼（Niklas Luhm
 ## 推荐语
 
 卡片式知识管理，产品极简并克制，多端同步。产品简单，但是背后是真实知识工作者，关于知识的深度思考后的结果。
-
-## 下载信息
-
-- **版本**: V 0.1.4
-- **下载链接**: [https://flomo-resource.oss-cn-shanghai.aliyuncs.com/flomo_mac_v0.1.4.zip](https://flomo-resource.oss-cn-shanghai.aliyuncs.com/flomo_mac_v0.1.4.zip)
-- **发布日期**: 2021-12-02
-- **更新日期**: 2021-12-02
-- **推荐人**: 马小胖
-- **分类**: 知识管理

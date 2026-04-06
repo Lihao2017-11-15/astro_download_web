@@ -13,12 +13,6 @@ featured: false
 
 # glance
 
-## 软件简介
-
-“是一款免费开源的macOS应用，用于预览cpp, .js, .json, .py 等代码文件，Markdown、压缩包、Jupyter Notebook等多种默认在macOS上被支持的文件格式。”
-
-## 详细介绍
-
 概述
 
 glance是一款免费开源macOS应用，可以用于预览cpp, .js, .json, .py 等代码文件，Markdown、压缩包、Jupyter Notebook等多种默认在macOS上不被支持的文件格式。
@@ -32,12 +26,3 @@ glance是一款免费开源macOS应用，可以用于预览cpp, .js, .json, .py 
 ## 推荐语
 
 glance是一款开源的macOS应用，可以用于预览各类默认在macOS上不被支持的文件格式。其中包含。cpp, .js, .json, .py 等代码文件，Markdown、压缩包、Jupyter Notebook等多种不同文件格式。
-
-## 下载信息
-
-- **版本**: V 80.0.361
-- **下载链接**: [https://apps.apple.com/cn/app/glance-quick-look-plugin/id1513574319?mt=12](https://apps.apple.com/cn/app/glance-quick-look-plugin/id1513574319?mt=12)
-- **发布日期**: 2020-05-28
-- **更新日期**: 2020-05-28
-- **推荐人**: Lemon的朋友
-- **分类**: 文件预览

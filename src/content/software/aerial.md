@@ -13,12 +13,6 @@ featured: false
 
 # Aerial
 
-## 软件简介
-
-“屏保素材来自于苹果亲自制作的航拍影片，每一个都是不可多得的精美作品，视觉享受。”
-
-## 详细介绍
-
 * 每一个航拍素材都比较大，建议大家预览选中自己喜欢的场景后，再下载哦.
 
 概述
@@ -41,12 +35,3 @@ featured: false
 ## 推荐语
 
 屏保素材来自于苹果亲自制作的航拍影片，每一个都是不可多得的精美作品，视觉享受。
-
-## 下载信息
-
-- **版本**: V 2.2.4
-- **下载链接**: [https://dlied6.qq.com/invc/xfspeed/qqpcmgr/module_update/Aerial.saver.zip](https://dlied6.qq.com/invc/xfspeed/qqpcmgr/module_update/Aerial.saver.zip)
-- **发布日期**: 2019-09-03
-- **更新日期**: 2019-09-03
-- **推荐人**: Maruko小丸子
-- **分类**: 高颜值屏保

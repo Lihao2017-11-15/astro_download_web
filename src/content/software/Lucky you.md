@@ -13,12 +13,6 @@ featured: false
 
 # Lucky you
 
-## 软件简介
-
-“是一款跨平台抽奖软件，免费，开源，体积小巧，主要用于抽奖/课堂点名等需要从多个图片中随即选出一个的应用场景，使用简单。”
-
-## 详细介绍
-
 概述
 
 是一款跨平台抽奖软件，免费，开源，体积小巧，主要用于抽奖/课堂点名等需要从多个图片中随即选出一个的应用场景，使用简单。
@@ -32,12 +26,3 @@ featured: false
 ## 推荐语
 
 LukcyYou是一款跨平台抽奖软件，有趣，免费，开源，体积小巧，dmg文件大小约 4Mb。主要用于抽奖/课堂点名等需要从多个图片中随即选出一个的应用场景，使用简单。
-
-## 下载信息
-
-- **版本**: V 1.1
-- **下载链接**: [https://dlied6.qq.com/invc/xfspeed/qqpcmgr/module_update/LuckyYou_1.1.1.com.dmg](https://dlied6.qq.com/invc/xfspeed/qqpcmgr/module_update/LuckyYou_1.1.1.com.dmg)
-- **发布日期**: 2020-07-16
-- **更新日期**: 2020-07-16
-- **推荐人**: jwenjian
-- **分类**: 抽奖

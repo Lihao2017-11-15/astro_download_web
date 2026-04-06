@@ -13,12 +13,6 @@ featured: false
 
 # 赤友 NTFS for Mac
 
-## 软件简介
-
-“是一款 Mac 读写 NTFS 移动硬盘 / U 盘的国产工具，支持快速读写NTFS磁盘，凭借极高的性价比、易用的操作，获得了众多用户的青睐。全新3.0版原价36元，限时特价20元。”
-
-## 详细介绍
-
 概述
 
 是一款 Mac 读写 NTFS 移动硬盘 / U 盘的国产工具，支持快速读写NTFS磁盘，凭借极高的性价比、易用的操作，获得了众多用户的青睐。全新3.0版原价39元，限时特价20元。
@@ -33,12 +27,3 @@ featured: false
 ## 推荐语
 
 赤友 NTFS for Mac 是Mac上一款国产NTFS非常好用的软件，全新3.0 速度更快，更好用，原价36元，限时20元，可永久使用，性价比非常高。
-
-## 下载信息
-
-- **版本**: V3.0
-- **下载链接**: [https://store.lizhi.io/site/products/id/68?cid=enqvaglc](https://store.lizhi.io/site/products/id/68?cid=enqvaglc)
-- **发布日期**: 2020-08-28
-- **更新日期**: 2020-08-28
-- **推荐人**: lemon的朋友
-- **分类**: NTFS挂载

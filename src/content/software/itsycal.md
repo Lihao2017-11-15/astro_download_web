@@ -13,12 +13,6 @@ featured: false
 
 # Itsycal
 
-## 软件简介
-
-“非常简单小巧的状态栏日历，只有3M不到哦！根据日期可以随手记录一些提醒事项、家人生日。”
-
-## 详细介绍
-
 * 菜单栏自定义的规则可以看看这里：https://www.mowglii.com/itsycal/datetime.html
 
 概述
@@ -34,12 +28,3 @@ featured: false
 ## 推荐语
 
 一个很不错的日程日历显示小巧软件。
-
-## 下载信息
-
-- **版本**: V 0.11.17
-- **下载链接**: [https://itsycal.s3.amazonaws.com/Itsycal.zip](https://itsycal.s3.amazonaws.com/Itsycal.zip)
-- **发布日期**: 2019-09-16
-- **更新日期**: 2019-09-16
-- **推荐人**: BenjaminDbb
-- **分类**: 状态栏极简日历

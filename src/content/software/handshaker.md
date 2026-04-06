@@ -13,12 +13,6 @@ featured: false
 
 # HandShaker
 
-## 软件简介
-
-“使用 HandShaker 可以使你在 Mac 电脑上也可以方便自如地管理你在 Android 手机中的内容。”
-
-## 详细介绍
-
 概述
 
 HandShaker 可以使你在 Mac 电脑上也可以方便自如地管理你在 Android 手机中的内容，如果Mac和Android手机在同一WiFi下，可通过无线连接手机，管理手机内的相册等内容，非常方便。
@@ -31,12 +25,3 @@ HandShaker 可以使你在 Mac 电脑上也可以方便自如地管理你在 And
 ## 推荐语
 
 HandShaker Mac 版使你在 Mac 电脑上也可以方便自如地管理你在 Android 手机中的内容。新增的闪念胶囊应用使你可以在 Mac 电脑通过闪念胶囊来记录、查看一闪而过的想法。此外，HandShaker 相册新增的同步功能能方便地将手机中的相册与电脑本地的相册自动保持同步。
-
-## 下载信息
-
-- **版本**: V 2.5.6
-- **下载链接**: [https://sf.smartisan.com/sf/release/download](https://sf.smartisan.com/sf/release/download)
-- **发布日期**: 2020-04-02
-- **更新日期**: 2020-04-02
-- **推荐人**: 大山
-- **分类**: 安卓手机管理

@@ -13,12 +13,6 @@ featured: false
 
 # Raycast
 
-## 软件简介
-
-“是一款Mac上集启动程序、搜索文件、快捷设置日程、待办事项等功能的神器，跟Mac上的神器 Alfred一样， Raycast 激活后会显示一个搜索框，而且会根据使用习惯推荐可能使用的程序或文件。”
-
-## 详细介绍
-
 概述
 
 是一款Mac上集启动程序、搜索文件、快捷设置日程、待办事项等功能的神器，跟Mac上的神器 Alfred一样， Raycast 激活后会显示一个搜索框，而且会根据使用习惯推荐可能使用的程序或文件。同时打通了Asana、GitHub、Jira 、Zoom等第三方的工具，能在Raycast 快速创建第三方的项目。
@@ -33,12 +27,3 @@ featured: false
 ## 推荐语
 
 Raycast 作为一款颜值比较高的快速启动应用，基础的功能已经比较完善，期待接下来它能够超越老牌启动器 Alfred。
-
-## 下载信息
-
-- **版本**: V 1.1.1
-- **下载链接**: [https://dlied6.qq.com/invc/xfspeed/qqpcmgr/module_update/Raycast.dmg](https://dlied6.qq.com/invc/xfspeed/qqpcmgr/module_update/Raycast.dmg)
-- **发布日期**: 2020-11-12
-- **更新日期**: 2020-11-12
-- **推荐人**: 风和
-- **分类**: 快捷启动器

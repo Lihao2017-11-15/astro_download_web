@@ -13,12 +13,6 @@ featured: false
 
 # Tickeys
 
-## 软件简介
-
-“一款给打字加音效的App，让码字成为一种享受。”
-
-## 详细介绍
-
 概述
 
 Tickeys Mac版是一款给打字加音效的软件。
@@ -33,12 +27,3 @@ Tickeys Mac版是一款给打字加音效的软件。
 ## 推荐语
 
 Tickeys 是一款免费开源的键盘音效工具，可以在键入时模拟「打字机」的声音，也有「爆裂鼓手」、「机械键盘」、「冒泡」、「剑气」等声音方案，支持 Mac，Windows，Linux 三大平台。如果你经常在深夜写作，不妨尝试一下这个键盘音效小工具：Tickeys。如果对味，它一定会让码字成为一种享受。
-
-## 下载信息
-
-- **版本**: V 1.0.0
-- **下载链接**: [https://dlied6.qq.com/invc/xfspeed/qqpcmgr/module_update/Tickeys100.zip](https://dlied6.qq.com/invc/xfspeed/qqpcmgr/module_update/Tickeys100.zip)
-- **发布日期**: 2020-04-27
-- **更新日期**: 2020-04-27
-- **推荐人**: oskyear2018
-- **分类**: 键盘音效

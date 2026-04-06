@@ -13,12 +13,6 @@ featured: false
 
 # GIPHY Capture
 
-## 软件简介
-
-“Mac 上录屏并将视频一键转成Gif的工具”
-
-## 详细介绍
-
 概述
 
 GIPHY Capture是Mac一款录屏并输出为gif图的软件
@@ -31,12 +25,3 @@ GIPHY Capture是Mac一款录屏并输出为gif图的软件
 ## 推荐语
 
 官方自称是Mac上最好的GIF创建软件.软件功能是录制屏幕并创建Gif文件.该软件免费，简洁，强大，易用
-
-## 下载信息
-
-- **版本**: V 4.1
-- **下载链接**: [https://apps.apple.com/cn/app/giphy-capture-the-gif-maker/id668208984?mt=12](https://apps.apple.com/cn/app/giphy-capture-the-gif-maker/id668208984?mt=12)
-- **发布日期**: 2020-03-26
-- **更新日期**: 2020-03-26
-- **推荐人**: 小强
-- **分类**: gif转换

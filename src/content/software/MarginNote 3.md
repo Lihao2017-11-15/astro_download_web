@@ -13,12 +13,6 @@ featured: false
 
 # MarginNote 3
 
-## 软件简介
-
-“ 是一款功能强大的阅读和学习工具软件，适用于 Mac、iPad 和 iPhone。它将 PDF / EPUB 阅读器和多种学习工具集成起来，使你可以在学习时从不同的维度将知识进行重组、连接，从而达到记住、领会的效果。 ”
-
-## 详细介绍
-
 概述
 
 是一款功能强大的阅读和学习工具软件，适用于 Mac、iPad 和 iPhone。它将 PDF / EPUB 阅读器和多种学习工具集成起来，使你可以在学习时从不同的维度将知识进行重组、连接，从而达到记住、领会的效果。
@@ -33,12 +27,3 @@ featured: false
 ## 推荐语
 
 MarginNote 3 PDF标注功能非常好用，特别适合文字阅读者和学生，能够很好的在PDF文件上做笔记
-
-## 下载信息
-
-- **版本**: V 3.6.15
-- **下载链接**: [https://store.lizhi.io/site/products/id/42?cid=enqvaglc](https://store.lizhi.io/site/products/id/42?cid=enqvaglc)
-- **发布日期**: 2020-11-05
-- **更新日期**: 2020-11-05
-- **推荐人**: lemon的朋友
-- **分类**: PDF阅读器

@@ -13,12 +13,6 @@ featured: false
 
 # Downie
 
-## 软件简介
-
-“是Mac上一款出色的视频下载工具，拥有简洁美观的设计，支持 1000+ 视频网站视频离线下载，覆盖了国内外包括YouTube、Vimeo以及Bilibili、优酷、爱奇艺等主流网站。满足绝大部分用户的需求。”
-
-## 详细介绍
-
 概述
 
 是Mac上一款出色的视频下载工具，拥有简洁美观的设计，支持 1000+ 视频网站视频离线下载，覆盖了国内外包括YouTube、Vimeo以及Bilibili、优酷、爱奇艺等主流网站。
@@ -32,12 +26,3 @@ featured: false
 ## 推荐语
 
 MAC系统最优秀的视频下载工具 Downie 4，现在前往数码荔枝购买仅需79元，新用户还可立减5元。
-
-## 下载信息
-
-- **版本**: V 4.0
-- **下载链接**: [https://store.lizhi.io/site/products/id/280?cid=enqvaglc](https://store.lizhi.io/site/products/id/280?cid=enqvaglc)
-- **发布日期**: 2020-10-15
-- **更新日期**: 2020-10-15
-- **推荐人**: lemon的朋友
-- **分类**: 视频下载工具

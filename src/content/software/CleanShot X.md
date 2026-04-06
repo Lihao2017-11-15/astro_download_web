@@ -13,12 +13,6 @@ featured: false
 
 # CleanShot X
 
-## 软件简介
-
-“一款 Mac 上的专业级截屏录屏工具，不仅提供截图、录屏以及标注、贴图等实用工具，还能轻松创建动图和长截图，非常适合 Mac 用户使用，而且功能非常强大。”
-
-## 详细介绍
-
 概述
 
 一款 Mac 上的专业级截屏录屏工具，不仅提供截图、录屏以及标注、贴图等实用工具，还能轻松创建动图和长截图，非常适合 Mac 用户使用，而且功能非常强大。
@@ -33,12 +27,3 @@ featured: false
 ## 推荐语
 
 CleanShot X 是一款近乎无可挑剔的专业截图录屏工具 ，能完美代替 Mac 自带截图，操作比 Snagit 更易用，功能比 Snipaste 更强大。
-
-## 下载信息
-
-- **版本**: V 3.4.1
-- **下载链接**: [https://store.lizhi.io/site/products/id/381?cid=enqvaglc](https://store.lizhi.io/site/products/id/381?cid=enqvaglc)
-- **发布日期**: 2020-10-29
-- **更新日期**: 2020-10-29
-- **推荐人**: lemon的朋友
-- **分类**: 截图软件

@@ -13,12 +13,6 @@ featured: false
 
 # Android File Transfer
 
-## 软件简介
-
-“Android File Transfer 是一款Mac上管理Androi手机的文件的软件，只需在连接手机前运行 Android File Transfer ，再连接手机，那么 Mac 就会识别出 Android 设备，并可以对里面的文件进行复制、粘贴、删除等管理。”
-
-## 详细介绍
-
 概述
 
 是一款Mac上管理Androi手机的文件的软件，只需在连接手机前运行 Android File Transfer ，再连接手机，那么 Mac 就会识别出 Android 设备，并可以对里面的文件进行复制、粘贴、删除等管理。
@@ -31,12 +25,3 @@ featured: false
 ## 推荐语
 
 Android File Transfer是一款帮助用户在Mac上读取安卓手机上的文件的Mac软件，Android File Transfer由于 Mac OS X 本身并不支持 MTP 协议，所以通过 USB 将 Android 设备连接到 Mac 电脑上是无法识别的，更别说读取里面的文件了，但是它能解决这个问题。软件非常简洁！Google 官方出品，不含有任何广告、收费等，几乎适配所有 Android 手机，适用于 macOS 10.7 版本或更高
-
-## 下载信息
-
-- **版本**: V 1.0.12
-- **下载链接**: [https://dl.google.com/dl/androidjumper/mtp/current/AndroidFileTransfer.dmg](https://dl.google.com/dl/androidjumper/mtp/current/AndroidFileTransfer.dmg)
-- **发布日期**: 2020-10-22
-- **更新日期**: 2020-10-22
-- **推荐人**: mxue
-- **分类**: Android 工具

@@ -13,12 +13,6 @@ featured: false
 
 # Vimac
 
-## 软件简介
-
-“是一款Mac上的键盘效率工具，通过用键盘代替鼠标操作从而提高电脑使用效率，非常适合程序员使用。”
-
-## 详细介绍
-
 概述
 
 是一款Mac上的键盘效率工具，通过用键盘代替鼠标操作从而提高电脑使用效率，非常适合程序员使用。
@@ -31,12 +25,3 @@ featured: false
 ## 推荐语
 
 可以键盘操作界面， 提高生产力。对于习惯键盘操作的人来说， 非常方便
-
-## 下载信息
-
-- **版本**: V 0.3.12
-- **下载链接**: [https://dlied6.qq.com/invc/xfspeed/qqpcmgr/module_update/Vimac0312.zip](https://dlied6.qq.com/invc/xfspeed/qqpcmgr/module_update/Vimac0312.zip)
-- **发布日期**: 2020-09-03
-- **更新日期**: 2020-09-03
-- **推荐人**: newkingfisher
-- **分类**: 键盘效率
