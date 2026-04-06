@@ -1,14 +1,12 @@
 ---
 title: Tiles
-description: Tiles 是Mac系统上的一款极简主义窗口管理器。
-version: (V 1.2.1)
-category: 其他
-tags:
-- 窗口管理
-- 窗口管理器
+description: “Tiles 是Mac系统上的一款极简主义窗口管理器。”
+version: V 1.2.1
+category: 窗口管理
+tags: ["窗口管理"]
 downloadUrl: https://updates.sempliva.com/tiles/Tiles-latest.dmg
 publishDate: 2021-05-28
-updateDate: 2026-04-05
+updateDate: 2021-05-28
 author: sumire
 featured: false
 ---
@@ -17,10 +15,28 @@ featured: false
 
 ## 软件简介
 
+“Tiles 是Mac系统上的一款极简主义窗口管理器。”
+
+## 详细介绍
+
+概述
+
 Tiles 是Mac系统上的一款极简主义窗口管理器。
 
-## 软件信息
+功能简介
 
-- **分类**: 其他
-- **推荐人**: sumire
+· 通过将窗口拖动到屏幕的两侧或角落，将工作空间中的窗口抓取并组织起来，它们会自动调整大小，并固定在原地；
+· 支持自定义的键盘快捷键，以提高工作效率。
+
+## 推荐语
+
+窗口管理软件，开源免费。
+
+## 下载信息
+
+- **版本**: V 1.2.1
+- **下载链接**: [https://updates.sempliva.com/tiles/Tiles-latest.dmg](https://updates.sempliva.com/tiles/Tiles-latest.dmg)
+- **发布日期**: 2021-05-28
 - **更新日期**: 2021-05-28
+- **推荐人**: sumire
+- **分类**: 窗口管理

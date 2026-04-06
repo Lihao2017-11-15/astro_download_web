@@ -1,14 +1,12 @@
 ---
 title: SpaceLauncher
-description: 是一款快捷键自定义工具，能够通过自定义的快捷键实现快速打开应用、网站、脚本、文件夹等功能。
-version: (V 1.4.13)
-category: 其他
-tags:
-- 快捷启动工具
-- Manico
+description: “是一款快捷键自定义工具，能够通过自定义的快捷键实现快速打开应用、网站、脚本、文件夹等功能。”
+version: V 1.4.13
+category: 快捷启动工具
+tags: ["快捷启动工具"]
 downloadUrl: https://spacelauncherapp.com/download/SpaceLauncher.zip
 publishDate: 2020-09-17
-updateDate: 2026-04-05
+updateDate: 2020-09-17
 author: pswell
 featured: false
 ---
@@ -17,10 +15,30 @@ featured: false
 
 ## 软件简介
 
-是一款快捷键自定义工具，能够通过自定义的快捷键实现快速打开应用、网站、脚本、文件夹等功能。
+“是一款快捷键自定义工具，能够通过自定义的快捷键实现快速打开应用、网站、脚本、文件夹等功能。”
 
-## 软件信息
+## 详细介绍
 
-- **分类**: 其他
-- **推荐人**: pswell
+概述
+
+SpaceLaunche是一款快捷键自定义工具，能够通过自定义的快捷键实现快速打开应用、网站、脚本、文件夹以及替代系统原有复杂快捷键的功能，支持二级快捷键分组，支持快捷键功能提示。
+
+功能简介
+
+· 界面简洁、使用简单，长按Space键即可唤醒自定义快捷键
+· 支持通过自定义快捷键实现快速打开应用、网站、脚本、文件夹等功能，并支持替代系统原有的复杂快捷键组合
+· 支持二级快捷键分组，令自定义快捷键更加井然有序
+· 支持快捷键功能提示，无需刻意记忆
+
+## 推荐语
+
+超好用的效率工具。把你的空格键变成「Hyper key」！自定义快捷键后可以实现打开应用，模拟按键等。还能实现二级快捷键等。软件有付费通道，但是可以免费使用，而且免费和付费并没有区别。如果觉得好用可以付费支持一下开发者。
+
+## 下载信息
+
+- **版本**: V 1.4.13
+- **下载链接**: [https://spacelauncherapp.com/download/SpaceLauncher.zip](https://spacelauncherapp.com/download/SpaceLauncher.zip)
+- **发布日期**: 2020-09-17
 - **更新日期**: 2020-09-17
+- **推荐人**: pswell
+- **分类**: 快捷启动工具

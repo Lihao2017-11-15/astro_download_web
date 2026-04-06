@@ -1,14 +1,12 @@
 ---
 title: Vimac
-description: 是一款Mac上的键盘效率工具，通过用键盘代替鼠标操作从而提高电脑使用效率，非常适合程序员使用。
-version: (V 0.3.12)
-category: 其他
-tags:
-- 快捷键
-- 键盘效率
+description: “是一款Mac上的键盘效率工具，通过用键盘代替鼠标操作从而提高电脑使用效率，非常适合程序员使用。”
+version: V 0.3.12
+category: 键盘效率
+tags: ["键盘效率"]
 downloadUrl: https://dlied6.qq.com/invc/xfspeed/qqpcmgr/module_update/Vimac0312.zip
 publishDate: 2020-09-03
-updateDate: 2026-04-05
+updateDate: 2020-09-03
 author: newkingfisher
 featured: false
 ---
@@ -17,10 +15,28 @@ featured: false
 
 ## 软件简介
 
+“是一款Mac上的键盘效率工具，通过用键盘代替鼠标操作从而提高电脑使用效率，非常适合程序员使用。”
+
+## 详细介绍
+
+概述
+
 是一款Mac上的键盘效率工具，通过用键盘代替鼠标操作从而提高电脑使用效率，非常适合程序员使用。
 
-## 软件信息
+功能简介
 
-- **分类**: 其他
-- **推荐人**: newkingfisher
+· 快捷键“Ctrl+Space”激活点击模式，输入提示字母完成鼠标单击操作，按住“Shift”键输入提示字母完成鼠标右键单击操作，按住“Command”键输入提示字母完成鼠标双击操作
+· 快捷键“Ctrl+S”激活滚动模式，使用HJKL+DU键进行滚动操作，按“TAB”键即可循环选择滚动区域
+
+## 推荐语
+
+可以键盘操作界面， 提高生产力。对于习惯键盘操作的人来说， 非常方便
+
+## 下载信息
+
+- **版本**: V 0.3.12
+- **下载链接**: [https://dlied6.qq.com/invc/xfspeed/qqpcmgr/module_update/Vimac0312.zip](https://dlied6.qq.com/invc/xfspeed/qqpcmgr/module_update/Vimac0312.zip)
+- **发布日期**: 2020-09-03
 - **更新日期**: 2020-09-03
+- **推荐人**: newkingfisher
+- **分类**: 键盘效率
