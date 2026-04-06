@@ -21,14 +21,31 @@ const getSoftwareByCategory = (category: string) => {
     .slice(0, 4);
 };
 
-const popularCategories = [
-  { name: '工具', desc: '实用的Mac工具软件' },
-  { name: '媒体', desc: 'Mac媒体播放与编辑' },
-  { name: '办公', desc: 'Mac办公效率软件' },
-  { name: '设计', desc: 'Mac设计创意软件' },
-  { name: '网络', desc: 'Mac网络工具软件' },
-  { name: '娱乐', desc: 'Mac娱乐休闲软件' }
-];
+// 统计每个分类的软件数量并按数量降序排序
+const categoryCounts = new Map<string, number>();
+allSoftware.forEach(software => {
+  const category = software.data.category || '其他';
+  categoryCounts.set(category, (categoryCounts.get(category) || 0) + 1);
+});
+
+// 转换为数组并排序
+const sortedCategories = Array.from(categoryCounts.entries())
+  .sort((a, b) => b[1] - a[1])
+  .slice(0, 6) // 取前6个热门分类
+  .map(([name, count]) => ({
+    name,
+    desc: `${name}相关的Mac软件`,
+    count
+  }));
+
+// 热门分类
+type Category = {
+  name: string;
+  desc: string;
+  count: number;
+};
+
+const popularCategories: Category[] = sortedCategories;
 
 // 将软件数据序列化为 JSON，供客户端使用
 const softwareData = sortedSoftware.map(software => ({
@@ -74,7 +91,7 @@ const softwareData = sortedSoftware.map(software => ({
               <a href={`/category/${category.name}`} class="category-header">
                 <h3>{category.name}</h3>
                 <span class="category-desc">{category.desc}</span>
-                <span class="category-count">{getSoftwareByCategory(category.name).length} 款软件</span>
+                <span class="category-count">{category.count} 款软件</span>
               </a>
               <div class="category-software">
                 {categorySoftware.map(software => (
@@ -89,7 +106,7 @@ const softwareData = sortedSoftware.map(software => ({
               </div>
             </div>
           );
-        })}
+        })} 
       </div>
     </section>
 
