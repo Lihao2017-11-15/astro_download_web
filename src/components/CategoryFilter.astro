@@ -9,55 +9,196 @@ const { activeCategory } = Astro.props;
 
 const software = await getCollection('software');
 const categories = [...new Set(software.map(s => s.data.category))].sort();
+
+// 计算第一排显示的分类数量
+const firstRowCount = 15;
+const firstRowCategories = categories.slice(0, firstRowCount);
+const remainingCategories = categories.slice(firstRowCount);
 ---
 
-<div class="category-filter">
-  <a 
-    href="/" 
-    class={`category-link ${!activeCategory ? 'active' : ''}`}
-  >
-    全部
-  </a>
-  {categories.map(category => (
+<div class="category-section">
+  <div class="category-header">
+    <h2 class="category-title">软件分类</h2>
+    <button class="expand-button" id="category-toggle">
+      <span class="expand-icon">+</span>
+      <span class="expand-text">展开更多</span>
+    </button>
+  </div>
+  
+  <!-- 固定显示的第一排分类 -->
+  <div class="category-grid primary-grid">
     <a 
-      href={`/category/${category}`}
-      class={`category-link ${activeCategory === category ? 'active' : ''}`}
+      href="/" 
+      class={`category-item ${!activeCategory ? 'active' : ''}`}
     >
-      {category}
+      全部
     </a>
-  ))}
+    {firstRowCategories.map(category => (
+      <a 
+        href={`/category/${category}`}
+        class={`category-item ${activeCategory === category ? 'active' : ''}`}
+      >
+        {category}
+      </a>
+    ))}
+  </div>
+  
+  <!-- 可折叠的其余分类 -->
+  <div class="category-grid secondary-grid" id="category-list">
+    {remainingCategories.map(category => (
+      <a 
+        href={`/category/${category}`}
+        class={`category-item ${activeCategory === category ? 'active' : ''}`}
+      >
+        {category}
+      </a>
+    ))}
+  </div>
 </div>
 
-<style>
-  .category-filter {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    justify-content: center;
-    margin-bottom: 2rem;
-  }
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const toggleButton = document.getElementById('category-toggle');
+    const categoryList = document.getElementById('category-list');
+    const expandIcon = toggleButton.querySelector('.expand-icon');
+    const expandText = toggleButton.querySelector('.expand-text');
+    
+    // 初始状态：默认折叠
+    let isExpanded = false;
+    
+    // 初始隐藏剩余分类
+    categoryList.style.maxHeight = '0';
+    categoryList.style.opacity = '0';
+    
+    toggleButton.addEventListener('click', function() {
+      isExpanded = !isExpanded;
+      
+      if (isExpanded) {
+        categoryList.style.maxHeight = '1000px';
+        categoryList.style.opacity = '1';
+        expandIcon.textContent = '−';
+        expandText.textContent = '收起';
+      } else {
+        categoryList.style.maxHeight = '0';
+        categoryList.style.opacity = '0';
+        expandIcon.textContent = '+';
+        expandText.textContent = '展开更多';
+      }
+    });
+  });
+</script>
 
-  .category-link {
+<style>
+  .category-section {
+    background: var(--surface);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .category-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border);
+  }
+  
+  .category-title {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--text-primary);
+  }
+  
+  .expand-button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 6px;
     padding: 0.5rem 1rem;
-    border-radius: 9999px;
     font-size: 0.875rem;
     font-weight: 500;
-    color: var(--text-muted);
-    background: var(--surface);
-    border: 1px solid var(--border);
-    transition: all 0.2s;
-    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
   }
-
-  .category-link:hover {
+  
+  .expand-button:hover {
+    background: var(--primary-dark);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .expand-icon {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 0.75rem;
+  }
+  
+  .primary-grid {
+    margin-bottom: 1rem;
+  }
+  
+  .secondary-grid {
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    transition: all 0.3s ease;
+  }
+  
+  .category-item {
+    padding: 0.625rem 1rem;
+    border-radius: 8px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+    background: var(--surface-light);
+    border: 1px solid var(--border);
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .category-item:hover {
     color: var(--primary);
     border-color: var(--primary);
-    text-decoration: none;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   }
-
-  .category-link.active {
+  
+  .category-item.active {
     background: var(--primary);
     color: white;
     border-color: var(--primary);
+  }
+  
+  @media (max-width: 768px) {
+    .category-grid {
+      grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+      gap: 0.5rem;
+    }
+    
+    .category-item {
+      padding: 0.5rem 0.75rem;
+      font-size: 0.75rem;
+    }
+    
+    .expand-button {
+      padding: 0.4rem 0.8rem;
+      font-size: 0.75rem;
+    }
   }
 </style>
