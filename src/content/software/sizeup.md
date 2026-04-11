@@ -4,9 +4,9 @@ description: “在 Mac OS X 上排列窗口既乏味又不精确。即使在拖
 version: V 1.7.4
 category: 调整窗口大小
 tags: ["调整窗口大小"]
-downloadUrl: https://www.irradiatedsoftware.com/downloads/?file=SizeUp.zip
+downloadUrl: https://pan.quark.cn/s/45e3dfe0d4dc
 publishDate: 2021-07-08
-updateDate: 2021-07-08
+updateDate: 2026-04-12
 author: 熊凡乙
 featured: false
 ---
@@ -22,6 +22,7 @@ featured: false
 · SizeUp 带有许多预定义的操作，用于调整和/或移动几乎所有应用程序的最前面的窗口。Safari、Finder、Pages，没关系，SizeUp 会发挥它的魔力来帮助您将窗口固定到位；
 · SizeUp 是高度可配置的，在屏幕边缘预留空间，这对于访问桌面图标非常有用；
 · 在窗口之间添加一些距离以避免阴影重叠。
+
 
 ## 推荐语
 

@@ -4,9 +4,9 @@ description: “你的Touchbar 专属宠物，点一点就可喂食，给你的M
 version: V 0.8.1
 category: touchbar宠物
 tags: ["touchbar宠物"]
-downloadUrl: https://graceavery.com/temp/touchbarpet12.zip
+downloadUrl: https://pan.quark.cn/s/fb1df7019a1a
 publishDate: 2020-04-29
-updateDate: 2020-04-29
+updateDate: 2026-04-12
 author: 言蹊
 featured: false
 ---
@@ -21,6 +21,7 @@ featured: false
 
 · 动动手指就能喂食，长时间不喂食，小宠物会饿死哦
 · 有Health、Hunger、Social3个进度条，会实时显示你当前宠物的状态哦～
+
 
 ## 推荐语
 

@@ -4,9 +4,9 @@ description: “是一款开源的App Store 自动切换账号软件，提前将
 version: V 0.0.5
 category: 账号切换
 tags: ["账号切换"]
-downloadUrl: https://dlied6.qq.com/invc/xfspeed/qqpcmgr/module_update/AccountSwitcher005.zip
+downloadUrl: https://pan.quark.cn/s/cdcf81f2d163
 publishDate: 2020-10-22
-updateDate: 2020-10-22
+updateDate: 2026-04-12
 author: Licardo
 featured: false
 ---
@@ -21,6 +21,7 @@ featured: false
 
 · 支持配置不同的Apple账号
 · 支持Apple账号间快速切换和登录
+
 
 ## 推荐语
 

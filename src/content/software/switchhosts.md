@@ -4,9 +4,9 @@ description: “一个免费开源的管理、切换多个 hosts 方案的工具
 version: V 3.5.6
 category: Hosts管理
 tags: ["Hosts管理"]
-downloadUrl: https://dlied6.qq.com/invc/xfspeed/qqpcmgr/module_update/SwitchHosts._macOS_3.5.6.5551.dmg
+downloadUrl: https://pan.quark.cn/s/27bb23f2d542
 publishDate: 2020-05-07
-updateDate: 2020-05-07
+updateDate: 2026-04-12
 author: 温水动物
 featured: false
 ---
@@ -24,6 +24,7 @@ SwitchHosts是一个管理、切换多个 hosts 方案的工具。
 · 可设置本地和远程方案
 · Hosts方案支持导入/导出
 · 同时支持Mac和Windows版本
+
 
 ## 推荐语
 

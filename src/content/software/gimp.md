@@ -6,7 +6,7 @@ category: 图像处理工具
 tags: ["图像处理工具"]
 downloadUrl: https://download.gimp.org/pub/gimp/v2.10/osx/gimp-2.10.14-x86_64.dmg
 publishDate: 2020-10-15
-updateDate: 2020-10-15
+updateDate: 2026-04-12
 author: 阳教主
 featured: false
 ---
@@ -23,6 +23,7 @@ GIMP是一款免费、开源、跨平台的图像处理工具，支持JPEG、GIF
 · 支持JPEG、GIF、PNG等几乎所有的主流图像格式
 · 新的图像处理引擎GEGL能够更快更好地对高质量图像进行照片增强以及数字润色等处理
 · 拥有高扩展性和高灵活性，由开源社区提供了大量的第三方脚本和插件
+
 
 ## 推荐语
 

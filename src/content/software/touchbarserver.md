@@ -4,9 +4,9 @@ description: “一款能让没有TouchBar的Mac在屏幕上体验原生TouchBar
 version: V 1.0
 category: 虚拟Touchbar
 tags: ["虚拟Touchbar"]
-downloadUrl: https://dlied6.qq.com/invc/xfspeed/qqpcmgr/module_update/TouchBarServer-1.1.zip
+downloadUrl: https://pan.quark.cn/s/83d42642bcde
 publishDate: 2020-05-07
-updateDate: 2020-05-07
+updateDate: 2026-04-12
 author: emm
 featured: false
 ---
@@ -22,6 +22,7 @@ TouchBarServer是一款能让没有TouchBar的Mac在屏幕上实现原生TouchBa
 · 双击Fn键可在屏幕虚拟出Touchbar
 · 可根据电脑屏幕尺寸选择不同的Touchbar样式
 · 可设置虚拟的Touchbar出现在屏幕中的位置
+
 
 ## 推荐语
 

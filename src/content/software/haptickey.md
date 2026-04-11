@@ -4,9 +4,9 @@ description: “一款针对TouchBar的简单实用软件，支持在点击Touch
 version: V 0.5.0
 category: TouchBar触控
 tags: ["TouchBar触控"]
-downloadUrl: https://dlied6.qq.com/invc/xfspeed/qqpcmgr/module_update/HapticKey.app.zip
+downloadUrl: https://pan.quark.cn/s/faf919fe1a75
 publishDate: 2020-05-21
-updateDate: 2020-05-21
+updateDate: 2026-04-12
 author: Augus
 featured: false
 ---
@@ -22,6 +22,7 @@ Mac上一款针对TouchBar的简单实用软件，支持在Touch Bar点击时提
 · 支持针对esc键设定触控反馈，或者Touchbar全键设定触控反馈
 · 支持添加点击音效
 · 支持添加屏幕闪烁
+
 
 ## 推荐语
 

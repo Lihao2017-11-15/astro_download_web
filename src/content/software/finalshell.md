@@ -4,9 +4,9 @@ description: “FinalShell是一体化的的服务器，网络管理软件。不
 version: V 1.0
 category: 网络管理服务器
 tags: ["网络管理服务器"]
-downloadUrl: https://dlied6.qq.com/invc/xfspeed/qqpcmgr/module_update/finalshell_install.pkg
+downloadUrl: https://pan.quark.cn/s/aef57e838f2e
 publishDate: 2020-02-20
-updateDate: 2020-02-20
+updateDate: 2026-04-12
 author: 默
 featured: false
 ---
@@ -28,6 +28,7 @@ FinalShell Mac版是一款一体化的服务器，网络管理软件。不仅是
 · 内置海外服务器加速，加速远程桌面和SSH连接，操作流畅无卡顿
 · 双边加速功能，大幅度提高访问服务器速度
 · 内置100多种配色方案，平滑字体显示
+
 
 ## 推荐语
 

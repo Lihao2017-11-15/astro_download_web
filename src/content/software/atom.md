@@ -6,7 +6,7 @@ category: 代码编辑器
 tags: ["代码编辑器"]
 downloadUrl: https://atom.io/download/mac
 publishDate: 2020-07-23
-updateDate: 2020-07-23
+updateDate: 2026-04-12
 author: JayWang
 featured: false
 ---
@@ -22,6 +22,7 @@ featured: false
 · 支持CSS，HTML，JavaScript等网页编程语言· 集成了文件管理器
 · 支持各种编程语言的代码高亮， 语言支持覆盖非常全面。另外，代码补全功能(Snippets) 也非常好用，你只需输入几个字符即可展开成各种常用代码，可以极大提高编程效率
 · Atom 编辑器可以和 GIT 完美结合，所有对代码、文本的修改都能体现在编辑器的界面上。比如在文件内新写的代码会在左边标记为绿色，删除的标记为红色，修改的标记为黄色。在左边的目录导航也能方便的看到文件改动：有改动的文件其文件名和所在文件夹名都会被标记为高亮显示
+
 
 ## 推荐语
 

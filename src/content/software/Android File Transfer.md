@@ -4,9 +4,9 @@ description: “Android File Transfer 是一款Mac上管理Androi手机的文件
 version: V 1.0.12
 category: Android 工具
 tags: ["Android 工具"]
-downloadUrl: https://dl.google.com/dl/androidjumper/mtp/current/AndroidFileTransfer.dmg
+downloadUrl: https://pan.quark.cn/s/a8491774c8cb
 publishDate: 2020-10-22
-updateDate: 2020-10-22
+updateDate: 2026-04-12
 author: mxue
 featured: false
 ---
@@ -21,6 +21,7 @@ featured: false
 
 · 支持Mac快速连接Android 手机
 · 支持从Mac里对Android手机文件复制、粘贴和删除
+
 
 ## 推荐语
 

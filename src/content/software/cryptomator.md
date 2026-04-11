@@ -6,7 +6,7 @@ category: 文件加密
 tags: ["文件加密"]
 downloadUrl: https://cryptomator.org/downloads/mac/thanks/
 publishDate: 2020-05-21
-updateDate: 2020-05-21
+updateDate: 2026-04-12
 author: 百事可乐
 featured: false
 ---
@@ -23,6 +23,7 @@ Mac上一款开源免费的文件加密软件。其"创建加密文件库"的工
 · 单独创建的加密盘，类似U盘的工作原理，单独存储，自动对数据进行加密
 · 使用AES和256位密钥长度对文件和文件名进行加密
 · 支持同步one drive、iCloud等云盘存储加密
+
 
 ## 推荐语
 
